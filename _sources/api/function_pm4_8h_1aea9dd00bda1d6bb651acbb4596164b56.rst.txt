@@ -1,0 +1,14 @@
+.. _exhale_function_pm4_8h_1aea9dd00bda1d6bb651acbb4596164b56:
+
+Function sift_pm4_parse_runlists
+================================
+
+- Defined in :ref:`file_include_rocsift_pm4.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_pm4_parse_runlists(const char *, sift_pm4_runlist_series_t **)
+   :project: rocsift

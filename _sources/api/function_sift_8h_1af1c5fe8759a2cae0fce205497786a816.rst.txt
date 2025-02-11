@@ -1,0 +1,14 @@
+.. _exhale_function_sift_8h_1af1c5fe8759a2cae0fce205497786a816:
+
+Function sift_partition_read
+============================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_partition_read(sift_partition_t, void *, sift_mem_region_t, uint64_t, size_t)
+   :project: rocsift

@@ -1,0 +1,65 @@
+
+.. _file_include_rocsift_mtype.h:
+
+File mtype.h
+============
+
+|exhale_lsh| :ref:`Parent directory <dir_include_rocsift>` (``include/rocsift``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/rocsift/mtype.h``)
+----------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_rocsift_mtype.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``cstdbool``
+
+- ``cstdint``
+
+- ``rocsift/chipid.h`` (:ref:`file_include_rocsift_chipid.h`)
+
+- ``rocsift/status.h`` (:ref:`file_include_rocsift_status.h`)
+
+
+
+
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_mtype_8h_1ad0e7416c5f6031daf7c02e8ebdde8568`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_mtype_8h_1a2de72a5e97b834989078fd6f33eaf2d9`
+
+
+Variables
+---------
+
+
+- :ref:`exhale_variable_mtype_8h_1aaef051954e200070415870491d8b2217`
+

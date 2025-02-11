@@ -1,0 +1,17 @@
+.. _exhale_struct_structsift__partition__t:
+
+Struct sift_partition_t
+=======================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: sift_partition_t
+   :project: rocsift
+   :members:
+   :protected-members:
+   :undoc-members:

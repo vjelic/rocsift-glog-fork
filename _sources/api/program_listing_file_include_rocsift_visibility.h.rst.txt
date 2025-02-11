@@ -1,0 +1,20 @@
+
+.. _program_listing_file_include_rocsift_visibility.h:
+
+Program Listing for File visibility.h
+=====================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_include_rocsift_visibility.h>` (``include/rocsift/visibility.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   /* Copyright © 2020 Advanced Micro Devices, Inc. All rights reserved */
+   
+   #ifndef _SIFT_VISIBILITY_H_
+   #define _SIFT_VISIBILITY_H_
+   
+   #define ROCSIFT_EXPORT __attribute__((visibility("default")))
+   
+   #endif  // _SIFT_VISIBILITY_H_

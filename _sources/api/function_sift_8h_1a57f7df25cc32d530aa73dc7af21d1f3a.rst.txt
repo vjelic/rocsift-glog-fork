@@ -1,0 +1,14 @@
+.. _exhale_function_sift_8h_1a57f7df25cc32d530aa73dc7af21d1f3a:
+
+Function sift_partition_get_xcc_die_ids
+=======================================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_partition_get_xcc_die_ids(sift_partition_t, int *, int)
+   :project: rocsift

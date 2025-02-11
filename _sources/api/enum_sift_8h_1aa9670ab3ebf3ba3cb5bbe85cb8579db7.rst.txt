@@ -1,0 +1,14 @@
+.. _exhale_enum_sift_8h_1aa9670ab3ebf3ba3cb5bbe85cb8579db7:
+
+Enum sift_device_info_t
+=======================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: sift_device_info_t
+   :project: rocsift

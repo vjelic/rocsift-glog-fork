@@ -1,0 +1,17 @@
+.. _exhale_struct_structsift__pm4__header__t:
+
+Struct sift_pm4_header_t
+========================
+
+- Defined in :ref:`file_include_rocsift_pm4.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: sift_pm4_header_t
+   :project: rocsift
+   :members:
+   :protected-members:
+   :undoc-members:

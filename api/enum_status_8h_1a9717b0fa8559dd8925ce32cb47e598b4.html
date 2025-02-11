@@ -1,0 +1,179 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enum sift_status_t &mdash; rocsift  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css?v=a885cde7" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js?v=73120307"></script>
+      <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js?v=660e4f45"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Union sift_pm4_body_t" href="unionsift__pm4__body__t.html" />
+    <link rel="prev" title="Enum sift_pm4_pm4_opcode_t" href="enum_pm4_8h_1a1cd3a465b2eb64659c3824b102833785.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            rocsift
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="rocsift_root.html">Rocsift API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="rocsift_root.html#class-hierarchy">Class Hierarchy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rocsift_root.html#file-hierarchy">File Hierarchy</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="rocsift_root.html#full-api">Full API</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#classes-and-structs">Classes and Structs</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="rocsift_root.html#enums">Enums</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="enum_sift_8h_1ae4f3483e524f8a5a9de35716fd7b1360.html">Enum sift_aperture_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1aa90e641d9078c113b8a30b23b843cdf8.html">Enum sift_chipid_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_sift_8h_1aa9670ab3ebf3ba3cb5bbe85cb8579db7.html">Enum sift_device_info_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_sift_8h_1a17a86ed2010023c76c0155895b659951.html">Enum sift_mem_region_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_mtype_8h_1ad0e7416c5f6031daf7c02e8ebdde8568.html">Enum sift_mtype_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_pm4_8h_1aa7a52ffd04fdfabbc94959a8a9ceb41b.html">Enum sift_pm4_packet_type_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_pm4_8h_1a1cd3a465b2eb64659c3824b102833785.html">Enum sift_pm4_pm4_opcode_t</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Enum sift_status_t</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#unions">Unions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#functions">Functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#variables">Variables</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#defines">Defines</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">rocsift</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="rocsift_root.html">Rocsift API</a></li>
+      <li class="breadcrumb-item active">Enum sift_status_t</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/api/enum_status_8h_1a9717b0fa8559dd8925ce32cb47e598b4.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="enum-sift-status-t">
+<span id="exhale-enum-status-8h-1a9717b0fa8559dd8925ce32cb47e598b4"></span><h1>Enum sift_status_t<a class="headerlink" href="#enum-sift-status-t" title="Link to this heading"></a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file_include_rocsift_status.h.html#file-include-rocsift-status-h"><span class="std std-ref">File status.h</span></a></p></li>
+</ul>
+<section id="enum-documentation">
+<h2>Enum Documentation<a class="headerlink" href="#enum-documentation" title="Link to this heading"></a></h2>
+<dl class="cpp enum">
+<dt class="sig sig-object cpp" id="_CPPv413sift_status_t">
+<span id="_CPPv313sift_status_t"></span><span id="_CPPv213sift_status_t"></span><span class="target" id="status_8h_1a9717b0fa8559dd8925ce32cb47e598b4"></span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">sift_status_t</span></span></span><a class="headerlink" href="#_CPPv413sift_status_t" title="Link to this definition"></a><br /></dt>
+<dd><p>Status codes. </p>
+<p><em>Values:</em></p>
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N13sift_status_t19SIFT_STATUS_SUCCESSE">
+<span id="_CPPv3N13sift_status_t19SIFT_STATUS_SUCCESSE"></span><span id="_CPPv2N13sift_status_t19SIFT_STATUS_SUCCESSE"></span><span class="target" id="status_8h_1a9717b0fa8559dd8925ce32cb47e598b4a287c2d34ce278db2b2c3af6837621779"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">SIFT_STATUS_SUCCESS</span></span></span><a class="headerlink" href="#_CPPv4N13sift_status_t19SIFT_STATUS_SUCCESSE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N13sift_status_t17SIFT_STATUS_ERRORE">
+<span id="_CPPv3N13sift_status_t17SIFT_STATUS_ERRORE"></span><span id="_CPPv2N13sift_status_t17SIFT_STATUS_ERRORE"></span><span class="target" id="status_8h_1a9717b0fa8559dd8925ce32cb47e598b4a42e9626d66ba01ea64510cd8c0e62d7d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">SIFT_STATUS_ERROR</span></span></span><a class="headerlink" href="#_CPPv4N13sift_status_t17SIFT_STATUS_ERRORE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N13sift_status_t20SIFT_STATUS_CODE_BUGE">
+<span id="_CPPv3N13sift_status_t20SIFT_STATUS_CODE_BUGE"></span><span id="_CPPv2N13sift_status_t20SIFT_STATUS_CODE_BUGE"></span><span class="target" id="status_8h_1a9717b0fa8559dd8925ce32cb47e598b4a44ff01a66a85ce2bd40290a4fd83b709"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">SIFT_STATUS_CODE_BUG</span></span></span><a class="headerlink" href="#_CPPv4N13sift_status_t20SIFT_STATUS_CODE_BUGE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N13sift_status_t27SIFT_STATUS_NOT_INITIALIZEDE">
+<span id="_CPPv3N13sift_status_t27SIFT_STATUS_NOT_INITIALIZEDE"></span><span id="_CPPv2N13sift_status_t27SIFT_STATUS_NOT_INITIALIZEDE"></span><span class="target" id="status_8h_1a9717b0fa8559dd8925ce32cb47e598b4a710f84ffab386ba64db64e0339d922a8"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">SIFT_STATUS_NOT_INITIALIZED</span></span></span><a class="headerlink" href="#_CPPv4N13sift_status_t27SIFT_STATUS_NOT_INITIALIZEDE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N13sift_status_t26SIFT_STATUS_NOT_PRIVILEGEDE">
+<span id="_CPPv3N13sift_status_t26SIFT_STATUS_NOT_PRIVILEGEDE"></span><span id="_CPPv2N13sift_status_t26SIFT_STATUS_NOT_PRIVILEGEDE"></span><span class="target" id="status_8h_1a9717b0fa8559dd8925ce32cb47e598b4a3d744a7d783b3c5dd808944b6a1df60f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">SIFT_STATUS_NOT_PRIVILEGED</span></span></span><a class="headerlink" href="#_CPPv4N13sift_status_t26SIFT_STATUS_NOT_PRIVILEGEDE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N13sift_status_t24SIFT_STATUS_OUT_OF_RANGEE">
+<span id="_CPPv3N13sift_status_t24SIFT_STATUS_OUT_OF_RANGEE"></span><span id="_CPPv2N13sift_status_t24SIFT_STATUS_OUT_OF_RANGEE"></span><span class="target" id="status_8h_1a9717b0fa8559dd8925ce32cb47e598b4aefd3b1d3a556e6927a717e6a37c0278a"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">SIFT_STATUS_OUT_OF_RANGE</span></span></span><a class="headerlink" href="#_CPPv4N13sift_status_t24SIFT_STATUS_OUT_OF_RANGEE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="enum_pm4_8h_1a1cd3a465b2eb64659c3824b102833785.html" class="btn btn-neutral float-left" title="Enum sift_pm4_pm4_opcode_t" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="unionsift__pm4__body__t.html" class="btn btn-neutral float-right" title="Union sift_pm4_body_t" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020 Advanced Micro Devices, Inc. All rights reserved.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

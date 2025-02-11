@@ -1,0 +1,14 @@
+.. _exhale_function_kfd_8h_1a9710732d0435aef117bfa8c777627806:
+
+Function sift_kfd_get_node_count
+================================
+
+- Defined in :ref:`file_include_rocsift_kfd.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_kfd_get_node_count(int *)
+   :project: rocsift

@@ -1,0 +1,14 @@
+.. _exhale_function_xlator_8h_1a7d8644331842489cda4df02791290c65:
+
+Function sift_xlator_vmid_from_pt_base
+======================================
+
+- Defined in :ref:`file_include_rocsift_xlator.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_xlator_vmid_from_pt_base(int *, sift_partition_t, sift_kfd_node_t, uint64_t)
+   :project: rocsift

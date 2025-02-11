@@ -1,0 +1,14 @@
+.. _exhale_function_sift_8h_1a6599c14b1d57bbb03db176ecfbbbe8a8:
+
+Function sift_get_device
+========================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_get_device(int, sift_device_t *)
+   :project: rocsift

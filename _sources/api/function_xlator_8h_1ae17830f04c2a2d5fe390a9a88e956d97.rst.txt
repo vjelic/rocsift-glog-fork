@@ -1,0 +1,14 @@
+.. _exhale_function_xlator_8h_1ae17830f04c2a2d5fe390a9a88e956d97:
+
+Function sift_xlator_translate
+==============================
+
+- Defined in :ref:`file_include_rocsift_xlator.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_xlator_translate(xlator_t *, translation_t *, uintptr_t)
+   :project: rocsift

@@ -1,0 +1,14 @@
+.. _exhale_function_kfd_8h_1a2c54ae64b9e986583b6c67fa71da9ae9:
+
+Function sift_kfd_node_get_gpuid
+================================
+
+- Defined in :ref:`file_include_rocsift_kfd.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_kfd_node_get_gpuid(sift_kfd_node_t, int *)
+   :project: rocsift

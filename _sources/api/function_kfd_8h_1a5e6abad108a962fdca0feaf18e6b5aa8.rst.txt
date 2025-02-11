@@ -1,0 +1,14 @@
+.. _exhale_function_kfd_8h_1a5e6abad108a962fdca0feaf18e6b5aa8:
+
+Function sift_kfd_node_get_id
+=============================
+
+- Defined in :ref:`file_include_rocsift_kfd.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_kfd_node_get_id(sift_kfd_node_t, int *)
+   :project: rocsift

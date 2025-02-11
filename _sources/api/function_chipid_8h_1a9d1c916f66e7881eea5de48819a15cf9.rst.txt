@@ -1,0 +1,14 @@
+.. _exhale_function_chipid_8h_1a9d1c916f66e7881eea5de48819a15cf9:
+
+Function is_mi3xx
+=================
+
+- Defined in :ref:`file_include_rocsift_chipid.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: is_mi3xx(sift_chipid_t)
+   :project: rocsift

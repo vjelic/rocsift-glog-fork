@@ -1,0 +1,6 @@
+/build*
+docs_exhale/_build
+docs_exhale/_doxygen
+docs_exhale/api
+.ccls
+.cache/

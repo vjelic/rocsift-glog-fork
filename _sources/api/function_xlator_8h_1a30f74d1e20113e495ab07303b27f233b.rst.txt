@@ -1,0 +1,14 @@
+.. _exhale_function_xlator_8h_1a30f74d1e20113e495ab07303b27f233b:
+
+Function sift_xlator_translate_range
+====================================
+
+- Defined in :ref:`file_include_rocsift_xlator.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_xlator_translate_range(xlator_t *, fragment_list_t **, uintptr_t, size_t, bool)
+   :project: rocsift

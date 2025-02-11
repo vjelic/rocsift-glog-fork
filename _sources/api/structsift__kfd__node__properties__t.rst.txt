@@ -1,0 +1,17 @@
+.. _exhale_struct_structsift__kfd__node__properties__t:
+
+Struct sift_kfd_node_properties_t
+=================================
+
+- Defined in :ref:`file_include_rocsift_kfd.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: sift_kfd_node_properties_t
+   :project: rocsift
+   :members:
+   :protected-members:
+   :undoc-members:

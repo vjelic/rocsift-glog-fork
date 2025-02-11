@@ -1,0 +1,14 @@
+.. _exhale_variable_mtype_8h_1aaef051954e200070415870491d8b2217:
+
+Variable sift_mtype_strings
+===========================
+
+- Defined in :ref:`file_include_rocsift_mtype.h`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: sift_mtype_strings
+   :project: rocsift

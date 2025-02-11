@@ -1,0 +1,14 @@
+.. _exhale_enum_sift_8h_1a17a86ed2010023c76c0155895b659951:
+
+Enum sift_mem_region_t
+======================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: sift_mem_region_t
+   :project: rocsift

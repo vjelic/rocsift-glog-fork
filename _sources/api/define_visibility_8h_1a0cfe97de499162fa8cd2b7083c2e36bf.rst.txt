@@ -1,0 +1,14 @@
+.. _exhale_define_visibility_8h_1a0cfe97de499162fa8cd2b7083c2e36bf:
+
+Define ROCSIFT_EXPORT
+=====================
+
+- Defined in :ref:`file_include_rocsift_visibility.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: ROCSIFT_EXPORT
+   :project: rocsift

@@ -1,0 +1,80 @@
+
+.. _file_include_rocsift_chipid.h:
+
+File chipid.h
+=============
+
+|exhale_lsh| :ref:`Parent directory <dir_include_rocsift>` (``include/rocsift``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/rocsift/chipid.h``)
+-----------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_rocsift_chipid.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``stdbool.h``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_rocsift_mtype.h`
+
+
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_chipid_8h_1aa90e641d9078c113b8a30b23b843cdf8`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_chipid_8h_1a9c93bc26aefd9cf87b5e5ecec5ba55a5`
+
+- :ref:`exhale_function_chipid_8h_1a782964a5fcaf5a8e139488b5b23ea0af`
+
+- :ref:`exhale_function_chipid_8h_1a5aefc2d12ff9d5a99653f7c9d0bb2ac1`
+
+- :ref:`exhale_function_chipid_8h_1a331e266a3d9d67dfce7067cddd7f3a0a`
+
+- :ref:`exhale_function_chipid_8h_1a319da37d4fbec9794cb21bf11754731f`
+
+- :ref:`exhale_function_chipid_8h_1afc50a5359fb58b0a10d75642b851fdf4`
+
+- :ref:`exhale_function_chipid_8h_1a5d3caf697d3af23d5ae081b1c606c82a`
+
+- :ref:`exhale_function_chipid_8h_1a9d1c916f66e7881eea5de48819a15cf9`
+
+- :ref:`exhale_function_chipid_8h_1ac2b5fba8cfb8803848edede3c45940f9`
+
+- :ref:`exhale_function_chipid_8h_1a27f3330c33ea49f1293f5a8c5d2ece41`
+
+- :ref:`exhale_function_chipid_8h_1a1fb7dd4669c7d77ecedb9bc1ea2fdd61`
+
+- :ref:`exhale_function_chipid_8h_1a826af65ad0588c2aeae2e4afc08c619d`
+

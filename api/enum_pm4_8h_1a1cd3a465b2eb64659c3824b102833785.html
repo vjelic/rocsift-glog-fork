@@ -1,0 +1,503 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enum sift_pm4_pm4_opcode_t &mdash; rocsift  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css?v=a885cde7" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js?v=73120307"></script>
+      <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js?v=660e4f45"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Enum sift_status_t" href="enum_status_8h_1a9717b0fa8559dd8925ce32cb47e598b4.html" />
+    <link rel="prev" title="Enum sift_pm4_packet_type_t" href="enum_pm4_8h_1aa7a52ffd04fdfabbc94959a8a9ceb41b.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            rocsift
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="rocsift_root.html">Rocsift API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="rocsift_root.html#class-hierarchy">Class Hierarchy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rocsift_root.html#file-hierarchy">File Hierarchy</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="rocsift_root.html#full-api">Full API</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#classes-and-structs">Classes and Structs</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="rocsift_root.html#enums">Enums</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="enum_sift_8h_1ae4f3483e524f8a5a9de35716fd7b1360.html">Enum sift_aperture_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1aa90e641d9078c113b8a30b23b843cdf8.html">Enum sift_chipid_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_sift_8h_1aa9670ab3ebf3ba3cb5bbe85cb8579db7.html">Enum sift_device_info_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_sift_8h_1a17a86ed2010023c76c0155895b659951.html">Enum sift_mem_region_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_mtype_8h_1ad0e7416c5f6031daf7c02e8ebdde8568.html">Enum sift_mtype_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_pm4_8h_1aa7a52ffd04fdfabbc94959a8a9ceb41b.html">Enum sift_pm4_packet_type_t</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Enum sift_pm4_pm4_opcode_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_status_8h_1a9717b0fa8559dd8925ce32cb47e598b4.html">Enum sift_status_t</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#unions">Unions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#functions">Functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#variables">Variables</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#defines">Defines</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">rocsift</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="rocsift_root.html">Rocsift API</a></li>
+      <li class="breadcrumb-item active">Enum sift_pm4_pm4_opcode_t</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/api/enum_pm4_8h_1a1cd3a465b2eb64659c3824b102833785.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="enum-sift-pm4-pm4-opcode-t">
+<span id="exhale-enum-pm4-8h-1a1cd3a465b2eb64659c3824b102833785"></span><h1>Enum sift_pm4_pm4_opcode_t<a class="headerlink" href="#enum-sift-pm4-pm4-opcode-t" title="Link to this heading"></a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file_include_rocsift_pm4.h.html#file-include-rocsift-pm4-h"><span class="std std-ref">File pm4.h</span></a></p></li>
+</ul>
+<section id="enum-documentation">
+<h2>Enum Documentation<a class="headerlink" href="#enum-documentation" title="Link to this heading"></a></h2>
+<dl class="cpp enum">
+<dt class="sig sig-object cpp" id="_CPPv421sift_pm4_pm4_opcode_t">
+<span id="_CPPv321sift_pm4_pm4_opcode_t"></span><span id="_CPPv221sift_pm4_pm4_opcode_t"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785"></span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">sift_pm4_pm4_opcode_t</span></span></span><a class="headerlink" href="#_CPPv421sift_pm4_pm4_opcode_t" title="Link to this definition"></a><br /></dt>
+<dd><p><em>Values:</em></p>
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t16eSIFT_PM4_OP_NOPE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t16eSIFT_PM4_OP_NOPE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t16eSIFT_PM4_OP_NOPE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785ae27674911e95bc0f6a9d6dbe9486651e"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_NOP</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t16eSIFT_PM4_OP_NOPE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t21eSIFT_PM4_OP_SET_BASEE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t21eSIFT_PM4_OP_SET_BASEE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t21eSIFT_PM4_OP_SET_BASEE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785ad37294813ccf06ad8eab9cf0ef6c38c6"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_SET_BASE</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t21eSIFT_PM4_OP_SET_BASEE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_CLEAR_STATEE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_CLEAR_STATEE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_CLEAR_STATEE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a328d2aae3c94ec7e352d4978c56158fe"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_CLEAR_STATE</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_CLEAR_STATEE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_INDEX_BUFFER_SIZEE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_INDEX_BUFFER_SIZEE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_INDEX_BUFFER_SIZEE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a372e53234c4c70427abb08b5e54c0d76"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_INDEX_BUFFER_SIZE</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_INDEX_BUFFER_SIZEE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_DISPATCH_DIRECTE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_DISPATCH_DIRECTE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_DISPATCH_DIRECTE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a2a461e0476e2fcde9b1b02cce58dcf15"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_DISPATCH_DIRECT</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_DISPATCH_DIRECTE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_DISPATCH_INDIRECTE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_DISPATCH_INDIRECTE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_DISPATCH_INDIRECTE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785aff65db1adcb21b72e4e3ea5677d68ded"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_DISPATCH_INDIRECT</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_DISPATCH_INDIRECTE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_ATOMIC_GDSE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_ATOMIC_GDSE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_ATOMIC_GDSE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785ac8eb44bcf845748ba59c1985dc5fc332"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_ATOMIC_GDS</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_ATOMIC_GDSE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_OCCLUSION_QUERYE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_OCCLUSION_QUERYE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_OCCLUSION_QUERYE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785ae3a053ac93f1989b5d0fb0c376c58f5b"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_OCCLUSION_QUERY</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_OCCLUSION_QUERYE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_SET_PREDICATIONE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_SET_PREDICATIONE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_SET_PREDICATIONE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785ac0381172510361539e16e5f0fe15822d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_SET_PREDICATION</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_SET_PREDICATIONE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t20eSIFT_PM4_OP_REG_RMWE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t20eSIFT_PM4_OP_REG_RMWE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t20eSIFT_PM4_OP_REG_RMWE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a7eff6d243eb9cabf56540347a5fa6b59"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_REG_RMW</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t20eSIFT_PM4_OP_REG_RMWE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t22eSIFT_PM4_OP_COND_EXECE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t22eSIFT_PM4_OP_COND_EXECE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t22eSIFT_PM4_OP_COND_EXECE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a389a59c58df0ef319dbd93145faef1bf"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_COND_EXEC</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t22eSIFT_PM4_OP_COND_EXECE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t22eSIFT_PM4_OP_PRED_EXECE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t22eSIFT_PM4_OP_PRED_EXECE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t22eSIFT_PM4_OP_PRED_EXECE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785abe49558115657dda8efcb13a20ff9529"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_PRED_EXEC</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t22eSIFT_PM4_OP_PRED_EXECE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_DRAW_INDIRECTE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_DRAW_INDIRECTE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_DRAW_INDIRECTE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785af591413f93e2c35ff7fbd5ece21bf9a7"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_DRAW_INDIRECT</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_DRAW_INDIRECTE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t32eSIFT_PM4_OP_DRAW_INDEX_INDIRECTE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t32eSIFT_PM4_OP_DRAW_INDEX_INDIRECTE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t32eSIFT_PM4_OP_DRAW_INDEX_INDIRECTE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785aa162fc92b0d3020e42a0de3ba272882b"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_DRAW_INDEX_INDIRECT</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t32eSIFT_PM4_OP_DRAW_INDEX_INDIRECTE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_INDEX_BASEE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_INDEX_BASEE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_INDEX_BASEE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a4a212c0018883d0114d1ad8d9e2bb085"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_INDEX_BASE</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_INDEX_BASEE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_DRAW_INDEX_2E">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_DRAW_INDEX_2E"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_DRAW_INDEX_2E"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a073ca3ff41271742d0295595343b24be"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_DRAW_INDEX_2</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_DRAW_INDEX_2E" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_CONTEXT_CONTROLE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_CONTEXT_CONTROLE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_CONTEXT_CONTROLE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785ac12c09a5aee4b96c26842feccc5e2b59"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_CONTEXT_CONTROL</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_CONTEXT_CONTROLE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_INDEX_TYPEE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_INDEX_TYPEE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_INDEX_TYPEE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a1580ebfa3c4693379759579a826e41ad"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_INDEX_TYPE</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_INDEX_TYPEE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t32eSIFT_PM4_OP_DRAW_INDIRECT_MULTIE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t32eSIFT_PM4_OP_DRAW_INDIRECT_MULTIE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t32eSIFT_PM4_OP_DRAW_INDIRECT_MULTIE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785ac54987a868c3a93c5c1b89782236b229"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_DRAW_INDIRECT_MULTI</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t32eSIFT_PM4_OP_DRAW_INDIRECT_MULTIE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_DRAW_INDEX_AUTOE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_DRAW_INDEX_AUTOE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_DRAW_INDEX_AUTOE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a452c4f4d985332e2268662cf8e330cbe"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_DRAW_INDEX_AUTO</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_DRAW_INDEX_AUTOE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_NUM_INSTANCESE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_NUM_INSTANCESE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_NUM_INSTANCESE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a735811b65940c5e052fbc1a41422ca65"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_NUM_INSTANCES</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_NUM_INSTANCESE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t34eSIFT_PM4_OP_DRAW_INDEX_MULTI_AUTOE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t34eSIFT_PM4_OP_DRAW_INDEX_MULTI_AUTOE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t34eSIFT_PM4_OP_DRAW_INDEX_MULTI_AUTOE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a1d93d05989bda80c5c5abf470d4939d7"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_DRAW_INDEX_MULTI_AUTO</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t34eSIFT_PM4_OP_DRAW_INDEX_MULTI_AUTOE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t33eSIFT_PM4_OP_INDIRECT_BUFFER_CNSTE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t33eSIFT_PM4_OP_INDIRECT_BUFFER_CNSTE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t33eSIFT_PM4_OP_INDIRECT_BUFFER_CNSTE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a69712ed72118a92b84a081c505fdf5b0"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_INDIRECT_BUFFER_CNST</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t33eSIFT_PM4_OP_INDIRECT_BUFFER_CNSTE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t34eSIFT_PM4_OP_STRMOUT_BUFFER_UPDATEE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t34eSIFT_PM4_OP_STRMOUT_BUFFER_UPDATEE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t34eSIFT_PM4_OP_STRMOUT_BUFFER_UPDATEE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785af9dc8ce45e54908a0fdce258b1c8f6c0"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_STRMOUT_BUFFER_UPDATE</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t34eSIFT_PM4_OP_STRMOUT_BUFFER_UPDATEE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t32eSIFT_PM4_OP_DRAW_INDEX_OFFSET_2E">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t32eSIFT_PM4_OP_DRAW_INDEX_OFFSET_2E"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t32eSIFT_PM4_OP_DRAW_INDEX_OFFSET_2E"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a917e1519beaad0b935ba1a5b65b3e6b3"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_DRAW_INDEX_OFFSET_2</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t32eSIFT_PM4_OP_DRAW_INDEX_OFFSET_2E" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_DRAW_PREAMBLEE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_DRAW_PREAMBLEE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_DRAW_PREAMBLEE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a3e4853ebb2bdacc1e756f5b5f193da69"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_DRAW_PREAMBLE</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_DRAW_PREAMBLEE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_WRITE_DATAE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_WRITE_DATAE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_WRITE_DATAE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a6ebc0f5cc2a2544c7a4c416fb467bd95"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_WRITE_DATA</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_WRITE_DATAE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t38eSIFT_PM4_OP_DRAW_INDEX_INDIRECT_MULTIE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t38eSIFT_PM4_OP_DRAW_INDEX_INDIRECT_MULTIE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t38eSIFT_PM4_OP_DRAW_INDEX_INDIRECT_MULTIE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a755b3d5fb01ed214cfd82f5c1fd01b7a"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_DRAW_INDEX_INDIRECT_MULTI</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t38eSIFT_PM4_OP_DRAW_INDEX_INDIRECT_MULTIE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_MEM_SEMAPHOREE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_MEM_SEMAPHOREE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_MEM_SEMAPHOREE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a4e9b75171ddb127e320db265eb4d7c06"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_MEM_SEMAPHORE</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_MEM_SEMAPHOREE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t20eSIFT_PM4_OP_COPY_DWE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t20eSIFT_PM4_OP_COPY_DWE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t20eSIFT_PM4_OP_COPY_DWE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a8f9b03da34b76f18a8601c66e138bc01"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_COPY_DW</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t20eSIFT_PM4_OP_COPY_DWE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_WAIT_REG_MEME">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_WAIT_REG_MEME"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_WAIT_REG_MEME"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a0121eceed754b8874e92b001e85b5560"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_WAIT_REG_MEM</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_WAIT_REG_MEME" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_INDIRECT_BUFFERE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_INDIRECT_BUFFERE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_INDIRECT_BUFFERE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a8f2138d59e15bfeaf24de5ec3123c3b8"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_INDIRECT_BUFFER</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_INDIRECT_BUFFERE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t22eSIFT_PM4_OP_COPY_DATAE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t22eSIFT_PM4_OP_COPY_DATAE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t22eSIFT_PM4_OP_COPY_DATAE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a9e36a1047e366293dcc515eaa6f4424f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_COPY_DATA</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t22eSIFT_PM4_OP_COPY_DATAE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_PFP_SYNC_MEE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_PFP_SYNC_MEE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_PFP_SYNC_MEE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a6b4d0bceffacee2b847020b3f9e3a825"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_PFP_SYNC_ME</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_PFP_SYNC_MEE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_SURFACE_SYNCE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_SURFACE_SYNCE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_SURFACE_SYNCE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785aef195280130bfa089236e162d2ae0209"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_SURFACE_SYNC</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_SURFACE_SYNCE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_COND_WRITEE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_COND_WRITEE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_COND_WRITEE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a28bef8a6b001c8d217810ac778fd2ff9"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_COND_WRITE</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_COND_WRITEE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_EVENT_WRITEE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_EVENT_WRITEE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_EVENT_WRITEE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a88ac7f88144d3ea5debff3ef9a3bd2c4"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_EVENT_WRITE</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_EVENT_WRITEE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_EVENT_WRITE_EOPE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_EVENT_WRITE_EOPE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_EVENT_WRITE_EOPE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a09300314665d0b71f7fe251c8017b41b"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_EVENT_WRITE_EOP</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_EVENT_WRITE_EOPE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_EVENT_WRITE_EOSE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_EVENT_WRITE_EOSE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_EVENT_WRITE_EOSE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a7d391b7cf01fd11e316baa2575f652c3"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_EVENT_WRITE_EOS</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_EVENT_WRITE_EOSE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_RELEASE_MEME">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_RELEASE_MEME"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_RELEASE_MEME"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785af86f8aaa0b12208b5bb6520abfaa92bf"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_RELEASE_MEM</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_RELEASE_MEME" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_PREAMBLE_CNTLE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_PREAMBLE_CNTLE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_PREAMBLE_CNTLE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a6e75f803a8368162738635787c35be39"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_PREAMBLE_CNTL</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_PREAMBLE_CNTLE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t21eSIFT_PM4_OP_DMA_DATAE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t21eSIFT_PM4_OP_DMA_DATAE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t21eSIFT_PM4_OP_DMA_DATAE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a83997bb272fad05e48dc95ca565b43f8"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_DMA_DATA</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t21eSIFT_PM4_OP_DMA_DATAE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_ACQUIRE_MEME">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_ACQUIRE_MEME"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_ACQUIRE_MEME"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785ae3a88048f8b32559ea652063378db739"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_ACQUIRE_MEM</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_ACQUIRE_MEME" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t19eSIFT_PM4_OP_REWINDE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t19eSIFT_PM4_OP_REWINDE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t19eSIFT_PM4_OP_REWINDE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a82ace509f229d7a31e52494f22781768"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_REWIND</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t19eSIFT_PM4_OP_REWINDE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t29eSIFT_PM4_OP_LOAD_UCONFIG_REGE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t29eSIFT_PM4_OP_LOAD_UCONFIG_REGE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t29eSIFT_PM4_OP_LOAD_UCONFIG_REGE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a915007987f5af3303b70369888dd3f8f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_LOAD_UCONFIG_REG</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t29eSIFT_PM4_OP_LOAD_UCONFIG_REGE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_LOAD_SH_REGE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_LOAD_SH_REGE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_LOAD_SH_REGE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785ade55fec8fcb8f3b91204048bcd24527a"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_LOAD_SH_REG</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_LOAD_SH_REGE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_LOAD_CONFIG_REGE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_LOAD_CONFIG_REGE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_LOAD_CONFIG_REGE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785acc31c2223a37214a6af8e6a7e5ca8b58"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_LOAD_CONFIG_REG</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_LOAD_CONFIG_REGE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t29eSIFT_PM4_OP_LOAD_CONTEXT_REGE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t29eSIFT_PM4_OP_LOAD_CONTEXT_REGE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t29eSIFT_PM4_OP_LOAD_CONTEXT_REGE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a6bd64bc4eda5623caec6f9c99c1d98fb"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_LOAD_CONTEXT_REG</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t29eSIFT_PM4_OP_LOAD_CONTEXT_REGE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t27eSIFT_PM4_OP_SET_CONFIG_REGE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t27eSIFT_PM4_OP_SET_CONFIG_REGE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t27eSIFT_PM4_OP_SET_CONFIG_REGE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785af53fa31dac6a2b18e497cebe9c3438e0"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_SET_CONFIG_REG</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t27eSIFT_PM4_OP_SET_CONFIG_REGE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_SET_CONTEXT_REGE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_SET_CONTEXT_REGE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_SET_CONTEXT_REGE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a2a71addd71eeacf8a86e64458c73508c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_SET_CONTEXT_REG</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_SET_CONTEXT_REGE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t37eSIFT_PM4_OP_SET_CONTEXT_REG_INDIRECTE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t37eSIFT_PM4_OP_SET_CONTEXT_REG_INDIRECTE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t37eSIFT_PM4_OP_SET_CONTEXT_REG_INDIRECTE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a13956e4dbfc0ba133379b7286d9d911a"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_SET_CONTEXT_REG_INDIRECT</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t37eSIFT_PM4_OP_SET_CONTEXT_REG_INDIRECTE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_SET_SH_REGE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_SET_SH_REGE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_SET_SH_REGE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a63fb08aede43f496925766d7a314dce1"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_SET_SH_REG</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_SET_SH_REGE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_SET_SH_REG_OFFSETE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_SET_SH_REG_OFFSETE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_SET_SH_REG_OFFSETE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785ab07b905f89cfbf22d76c3c58a30f1df9"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_SET_SH_REG_OFFSET</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_SET_SH_REG_OFFSETE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_SET_QUEUE_REGE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_SET_QUEUE_REGE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_SET_QUEUE_REGE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a86c7d02c89884e3aa44354dccb2193fe"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_SET_QUEUE_REG</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_SET_QUEUE_REGE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_SET_UCONFIG_REGE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_SET_UCONFIG_REGE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_SET_UCONFIG_REGE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a63b1dba180af152426a3f186ae42b7c7"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_SET_UCONFIG_REG</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_SET_UCONFIG_REGE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_SCRATCH_RAM_WRITEE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_SCRATCH_RAM_WRITEE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_SCRATCH_RAM_WRITEE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a32ffc31e429aa0780926911cb420babf"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_SCRATCH_RAM_WRITE</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t30eSIFT_PM4_OP_SCRATCH_RAM_WRITEE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t29eSIFT_PM4_OP_SCRATCH_RAM_READE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t29eSIFT_PM4_OP_SCRATCH_RAM_READE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t29eSIFT_PM4_OP_SCRATCH_RAM_READE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a2cf6f3590561262166a0922209d8938c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_SCRATCH_RAM_READ</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t29eSIFT_PM4_OP_SCRATCH_RAM_READE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t27eSIFT_PM4_OP_LOAD_CONST_RAME">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t27eSIFT_PM4_OP_LOAD_CONST_RAME"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t27eSIFT_PM4_OP_LOAD_CONST_RAME"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785ad237325c351e2bea26620d599cbb1454"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_LOAD_CONST_RAM</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t27eSIFT_PM4_OP_LOAD_CONST_RAME" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_WRITE_CONST_RAME">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_WRITE_CONST_RAME"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_WRITE_CONST_RAME"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a0e2b0345526932a3322a1c707bec97b7"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_WRITE_CONST_RAM</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t28eSIFT_PM4_OP_WRITE_CONST_RAME" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t27eSIFT_PM4_OP_DUMP_CONST_RAME">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t27eSIFT_PM4_OP_DUMP_CONST_RAME"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t27eSIFT_PM4_OP_DUMP_CONST_RAME"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a4534743f2a1a90604cafc50307d3cc23"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_DUMP_CONST_RAM</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t27eSIFT_PM4_OP_DUMP_CONST_RAME" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t33eSIFT_PM4_OP_INCREMENT_CE_COUNTERE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t33eSIFT_PM4_OP_INCREMENT_CE_COUNTERE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t33eSIFT_PM4_OP_INCREMENT_CE_COUNTERE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a5fe1263903ab0a49395d7b456f657811"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_INCREMENT_CE_COUNTER</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t33eSIFT_PM4_OP_INCREMENT_CE_COUNTERE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t33eSIFT_PM4_OP_INCREMENT_DE_COUNTERE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t33eSIFT_PM4_OP_INCREMENT_DE_COUNTERE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t33eSIFT_PM4_OP_INCREMENT_DE_COUNTERE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a68106f99fe7b9382f39a05d3fe97d639"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_INCREMENT_DE_COUNTER</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t33eSIFT_PM4_OP_INCREMENT_DE_COUNTERE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t31eSIFT_PM4_OP_WAIT_ON_CE_COUNTERE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t31eSIFT_PM4_OP_WAIT_ON_CE_COUNTERE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t31eSIFT_PM4_OP_WAIT_ON_CE_COUNTERE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785ae3455c0889af6308c29e842cc59a95fb"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_WAIT_ON_CE_COUNTER</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t31eSIFT_PM4_OP_WAIT_ON_CE_COUNTERE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t36eSIFT_PM4_OP_WAIT_ON_DE_COUNTER_DIFFE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t36eSIFT_PM4_OP_WAIT_ON_DE_COUNTER_DIFFE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t36eSIFT_PM4_OP_WAIT_ON_DE_COUNTER_DIFFE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a3edea9720ce799971e7439c3095ffec5"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_WAIT_ON_DE_COUNTER_DIFF</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t36eSIFT_PM4_OP_WAIT_ON_DE_COUNTER_DIFFE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_SWITCH_BUFFERE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_SWITCH_BUFFERE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_SWITCH_BUFFERE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785afc5b33cadb987228f35fd50b07e5e7a6"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_SWITCH_BUFFER</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_SWITCH_BUFFERE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_SET_RESOURCESE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_SET_RESOURCESE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_SET_RESOURCESE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a9a0498d10976818919112ac99dc69b38"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_SET_RESOURCES</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t26eSIFT_PM4_OP_SET_RESOURCESE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_MAP_PROCESSE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_MAP_PROCESSE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_MAP_PROCESSE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785ae8358370e2f2ac0a7d340aec859f8e51"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_MAP_PROCESS</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t24eSIFT_PM4_OP_MAP_PROCESSE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_MAP_QUEUESE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_MAP_QUEUESE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_MAP_QUEUESE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a06da1160e65c4dd1c747ceb08b7f698f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_MAP_QUEUES</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t23eSIFT_PM4_OP_MAP_QUEUESE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_UNMAP_QUEUESE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_UNMAP_QUEUESE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_UNMAP_QUEUESE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a443ae33fc7251296a057aa4ecc151dd2"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_UNMAP_QUEUES</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_UNMAP_QUEUESE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_QUERY_STATUSE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_QUERY_STATUSE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_QUERY_STATUSE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a81306611c861f47ef17390f607400302"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_QUERY_STATUS</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t25eSIFT_PM4_OP_QUERY_STATUSE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N21sift_pm4_pm4_opcode_t21eSIFT_PM4_OP_RUN_LISTE">
+<span id="_CPPv3N21sift_pm4_pm4_opcode_t21eSIFT_PM4_OP_RUN_LISTE"></span><span id="_CPPv2N21sift_pm4_pm4_opcode_t21eSIFT_PM4_OP_RUN_LISTE"></span><span class="target" id="pm4_8h_1a1cd3a465b2eb64659c3824b102833785a9908dcec20d1558711bf130b6646f109"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">eSIFT_PM4_OP_RUN_LIST</span></span></span><a class="headerlink" href="#_CPPv4N21sift_pm4_pm4_opcode_t21eSIFT_PM4_OP_RUN_LISTE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="enum_pm4_8h_1aa7a52ffd04fdfabbc94959a8a9ceb41b.html" class="btn btn-neutral float-left" title="Enum sift_pm4_packet_type_t" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="enum_status_8h_1a9717b0fa8559dd8925ce32cb47e598b4.html" class="btn btn-neutral float-right" title="Enum sift_status_t" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020 Advanced Micro Devices, Inc. All rights reserved.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

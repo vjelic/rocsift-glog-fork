@@ -1,0 +1,205 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Function sift_get_device_count &mdash; rocsift  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css?v=a885cde7" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js?v=73120307"></script>
+      <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js?v=660e4f45"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Function sift_get_partition" href="function_sift_8h_1aa70e08dfe6e84a3a64bca90577a57ec0.html" />
+    <link rel="prev" title="Function sift_get_device" href="function_sift_8h_1a6599c14b1d57bbb03db176ecfbbbe8a8.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            rocsift
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="rocsift_root.html">Rocsift API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="rocsift_root.html#class-hierarchy">Class Hierarchy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rocsift_root.html#file-hierarchy">File Hierarchy</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="rocsift_root.html#full-api">Full API</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#classes-and-structs">Classes and Structs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#enums">Enums</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#unions">Unions</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="rocsift_root.html#functions">Functions</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="function_mtype_8h_1a2de72a5e97b834989078fd6f33eaf2d9.html">Function decode_mtype</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a9c93bc26aefd9cf87b5e5ecec5ba55a5.html">Function is_mi100</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a782964a5fcaf5a8e139488b5b23ea0af.html">Function is_mi200</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a5aefc2d12ff9d5a99653f7c9d0bb2ac1.html">Function is_mi300</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a331e266a3d9d67dfce7067cddd7f3a0a.html">Function is_mi300a</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a319da37d4fbec9794cb21bf11754731f.html">Function is_mi300x</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1afc50a5359fb58b0a10d75642b851fdf4.html">Function is_mi300x_hf</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a5d3caf697d3af23d5ae081b1c606c82a.html">Function is_mi325x</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a9d1c916f66e7881eea5de48819a15cf9.html">Function is_mi3xx</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1ac2b5fba8cfb8803848edede3c45940f9.html">Function is_navi10</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a27f3330c33ea49f1293f5a8c5d2ece41.html">Function is_navi21</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a1fb7dd4669c7d77ecedb9bc1ea2fdd61.html">Function is_navi31</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a826af65ad0588c2aeae2e4afc08c619d.html">Function is_vega20</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1a142357554d2033313ebff7f1822bbef4.html">Function sift_destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1a2966e1fd7119c2316298e10233261422.html">Function sift_device_get_partition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1ae1673ebd2fbb00f6f207b9c27697c52d.html">Function sift_device_get_partition_count</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1a6528021a80b20f9b8814beb7e34421ab.html">Function sift_device_read</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1ac00f142f3db6dcb1811f2c14ded252fa.html">Function sift_device_read_reg32</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1a999248f8c8139141be6e189f375f6e2b.html">Function sift_device_write</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1a0bf05fe3dc09b6230471742f30c94b47.html">Function sift_device_write_reg32</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1a6599c14b1d57bbb03db176ecfbbbe8a8.html">Function sift_get_device</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Function sift_get_device_count</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1aa70e08dfe6e84a3a64bca90577a57ec0.html">Function sift_get_partition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1a0e41ff430ff210223876d53924f42181.html">Function sift_get_partition_count</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1aadc9021a280603612fb2b7b5d6afd420.html">Function sift_init</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_kfd_8h_1a9769b5977c45c804abdf067755f2b883.html">Function sift_kfd_get_node</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_kfd_8h_1a9710732d0435aef117bfa8c777627806.html">Function sift_kfd_get_node_count</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_kfd_8h_1aaf5879c8964a9caf3bba318d54fd33c7.html">Function sift_kfd_get_proc_list</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_kfd_8h_1a13a2f3f0520b5ccfa479cfddcb661d62.html">Function sift_kfd_get_runlists</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_kfd_8h_1a2c54ae64b9e986583b6c67fa71da9ae9.html">Function sift_kfd_node_get_gpuid</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_kfd_8h_1a5e6abad108a962fdca0feaf18e6b5aa8.html">Function sift_kfd_node_get_id</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_kfd_8h_1adee799872b27180fec7e6a82e110d3e1.html">Function sift_kfd_node_get_properties</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_kfd_8h_1a409b8b71b341fb66e3f850609ec29157.html">Function sift_kfd_proc_list_destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1a2f146b7aadfd0047f1480a02234364f8.html">Function sift_partition_get_device</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1ae8ad68d27efbc687b37cb5830baf7175.html">Function sift_partition_get_kfd_node</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1a6b8df399b23b439d735ebd7ababe1410.html">Function sift_partition_get_xcc_count</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1a57f7df25cc32d530aa73dc7af21d1f3a.html">Function sift_partition_get_xcc_die_ids</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1af1c5fe8759a2cae0fce205497786a816.html">Function sift_partition_read</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1a020cf4fd9fa4b110e2627360b9555608.html">Function sift_partition_read_reg32</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1a962245f8b0cf889a3c41cfa5e77cc8f4.html">Function sift_partition_write</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1a4437f650980057a331dd7c429c39b929.html">Function sift_partition_write_reg32</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_pm4_8h_1aa642082dbbff3423750972257570edf2.html">Function sift_pm4_destroy_runlist</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_pm4_8h_1a0e9f5d2aec91cc634ee9749e9949205e.html">Function sift_pm4_destroy_runlists</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_pm4_8h_1a18e677d0f47542fa80c5fcabb46b9813.html">Function sift_pm4_get_runlist</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_pm4_8h_1aae1994bdbdbb23760259446e63187831.html">Function sift_pm4_get_runlists</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_pm4_8h_1a12baf6a42ddbe42578d9876c7c437ec8.html">Function sift_pm4_parse_runlist</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_pm4_8h_1aea9dd00bda1d6bb651acbb4596164b56.html">Function sift_pm4_parse_runlists</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_sift_8h_1a40e525cd18a62e6ba80c7032af85d009.html">Function sift_status_get_message</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_xlator_8h_1af2309fa3d279d51ee6a225572baf2307.html">Function sift_xlator_create</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_xlator_8h_1a0c9f655974f1bdd43e4a13069f81301e.html">Function sift_xlator_create_for_current_process</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_xlator_8h_1a4473198cafbca12ed05454e3160e46fc.html">Function sift_xlator_create_for_process</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_xlator_8h_1aa5efc5a72832ffe0e625a6af3d5e3dc2.html">Function sift_xlator_destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_xlator_8h_1aa9fb37a5c0beee4e958ee1a860d1646b.html">Function sift_xlator_fragment_list_destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_xlator_8h_1abe193e2c42fc65ab5d7650324b8c8ef0.html">Function sift_xlator_pt_base_from_pasid</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_xlator_8h_1ae17830f04c2a2d5fe390a9a88e956d97.html">Function sift_xlator_translate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_xlator_8h_1a30f74d1e20113e495ab07303b27f233b.html">Function sift_xlator_translate_range</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_xlator_8h_1a7d8644331842489cda4df02791290c65.html">Function sift_xlator_vmid_from_pt_base</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#variables">Variables</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#defines">Defines</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">rocsift</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="rocsift_root.html">Rocsift API</a></li>
+      <li class="breadcrumb-item active">Function sift_get_device_count</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/api/function_sift_8h_1ae28c3c5494b3cda3631cabd955f9a919.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="function-sift-get-device-count">
+<span id="exhale-function-sift-8h-1ae28c3c5494b3cda3631cabd955f9a919"></span><h1>Function sift_get_device_count<a class="headerlink" href="#function-sift-get-device-count" title="Link to this heading"></a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file_include_rocsift_sift.h.html#file-include-rocsift-sift-h"><span class="std std-ref">File sift.h</span></a></p></li>
+</ul>
+<section id="function-documentation">
+<h2>Function Documentation<a class="headerlink" href="#function-documentation" title="Link to this heading"></a></h2>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv421sift_get_device_countPi">
+<span id="_CPPv321sift_get_device_countPi"></span><span id="_CPPv221sift_get_device_countPi"></span><span id="sift_get_device_count__iP"></span><span class="target" id="sift_8h_1ae28c3c5494b3cda3631cabd955f9a919"></span><a class="reference internal" href="enum_status_8h_1a9717b0fa8559dd8925ce32cb47e598b4.html#_CPPv413sift_status_t" title="sift_status_t"><span class="n"><span class="pre">sift_status_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">sift_get_device_count</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">n</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv421sift_get_device_countPi" title="Link to this definition"></a><br /></dt>
+<dd><p>fetches the number of devices discovered </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>n</strong> – Pointer to integer to fill with number of devices </p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>SIFT_STATUS_SUCCESS on success </p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="function_sift_8h_1a6599c14b1d57bbb03db176ecfbbbe8a8.html" class="btn btn-neutral float-left" title="Function sift_get_device" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="function_sift_8h_1aa70e08dfe6e84a3a64bca90577a57ec0.html" class="btn btn-neutral float-right" title="Function sift_get_partition" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020 Advanced Micro Devices, Inc. All rights reserved.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

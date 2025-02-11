@@ -1,0 +1,84 @@
+
+.. _file_include_rocsift_xlator.h:
+
+File xlator.h
+=============
+
+|exhale_lsh| :ref:`Parent directory <dir_include_rocsift>` (``include/rocsift``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/rocsift/xlator.h``)
+-----------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_rocsift_xlator.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``rocsift/kfd.h`` (:ref:`file_include_rocsift_kfd.h`)
+
+- ``rocsift/sift.h`` (:ref:`file_include_rocsift_sift.h`)
+
+- ``rocsift/visibility.h`` (:ref:`file_include_rocsift_visibility.h`)
+
+- ``stdbool.h``
+
+- ``stdint.h``
+
+
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structfragment__list__t`
+
+- :ref:`exhale_struct_structfragment__t`
+
+- :ref:`exhale_struct_structpte__t`
+
+- :ref:`exhale_struct_structtranslation__t`
+
+- :ref:`exhale_struct_structxlator__t`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_xlator_8h_1af2309fa3d279d51ee6a225572baf2307`
+
+- :ref:`exhale_function_xlator_8h_1a0c9f655974f1bdd43e4a13069f81301e`
+
+- :ref:`exhale_function_xlator_8h_1a4473198cafbca12ed05454e3160e46fc`
+
+- :ref:`exhale_function_xlator_8h_1aa5efc5a72832ffe0e625a6af3d5e3dc2`
+
+- :ref:`exhale_function_xlator_8h_1aa9fb37a5c0beee4e958ee1a860d1646b`
+
+- :ref:`exhale_function_xlator_8h_1abe193e2c42fc65ab5d7650324b8c8ef0`
+
+- :ref:`exhale_function_xlator_8h_1ae17830f04c2a2d5fe390a9a88e956d97`
+
+- :ref:`exhale_function_xlator_8h_1a30f74d1e20113e495ab07303b27f233b`
+
+- :ref:`exhale_function_xlator_8h_1a7d8644331842489cda4df02791290c65`
+

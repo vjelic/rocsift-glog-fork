@@ -1,0 +1,14 @@
+.. _exhale_function_chipid_8h_1a826af65ad0588c2aeae2e4afc08c619d:
+
+Function is_vega20
+==================
+
+- Defined in :ref:`file_include_rocsift_chipid.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: is_vega20(sift_chipid_t)
+   :project: rocsift

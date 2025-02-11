@@ -1,0 +1,14 @@
+.. _exhale_function_chipid_8h_1a782964a5fcaf5a8e139488b5b23ea0af:
+
+Function is_mi200
+=================
+
+- Defined in :ref:`file_include_rocsift_chipid.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: is_mi200(sift_chipid_t)
+   :project: rocsift

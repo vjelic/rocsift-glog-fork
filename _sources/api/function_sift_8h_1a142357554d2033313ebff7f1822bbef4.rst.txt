@@ -1,0 +1,14 @@
+.. _exhale_function_sift_8h_1a142357554d2033313ebff7f1822bbef4:
+
+Function sift_destroy
+=====================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_destroy()
+   :project: rocsift

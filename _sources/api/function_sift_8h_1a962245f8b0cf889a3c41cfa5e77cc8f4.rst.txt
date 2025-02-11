@@ -1,0 +1,14 @@
+.. _exhale_function_sift_8h_1a962245f8b0cf889a3c41cfa5e77cc8f4:
+
+Function sift_partition_write
+=============================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_partition_write(sift_partition_t, const void *, sift_mem_region_t, uint64_t, size_t)
+   :project: rocsift

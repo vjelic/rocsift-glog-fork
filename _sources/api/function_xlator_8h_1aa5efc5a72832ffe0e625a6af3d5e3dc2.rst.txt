@@ -1,0 +1,14 @@
+.. _exhale_function_xlator_8h_1aa5efc5a72832ffe0e625a6af3d5e3dc2:
+
+Function sift_xlator_destroy
+============================
+
+- Defined in :ref:`file_include_rocsift_xlator.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_xlator_destroy(xlator_t *)
+   :project: rocsift

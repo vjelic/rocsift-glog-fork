@@ -1,0 +1,114 @@
+
+.. _program_listing_file_include_rocsift_sift.h:
+
+Program Listing for File sift.h
+===============================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_include_rocsift_sift.h>` (``include/rocsift/sift.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   /* Copyright © 2020 Advanced Micro Devices, Inc. All rights reserved */
+   
+   #ifndef _SIFT_H_
+   #define _SIFT_H_
+   
+   #include "sys/types.h"
+   #include "stddef.h"
+   #include "stdint.h"
+   #include "rocsift/status.h"
+   #include "rocsift/visibility.h"
+   
+   #ifdef __cplusplus
+   extern "C" {
+   #endif  // __cplusplus
+   
+   typedef struct sift_device_s {
+     uint64_t handle;
+   } sift_device_t;
+   
+   typedef struct sift_partition_s {
+     uint64_t handle;
+   } sift_partition_t;
+   
+   typedef enum {
+     SIFT_DEVICE_INFO_NAME_SIZE = 0,
+     SIFT_DEVICE_INFO_NAME = 1,
+     SIFT_DEVICE_INFO_FWINFO_SIZE = 2,
+     SIFT_DEVICE_INFO_FWINFO = 3,
+   } sift_device_info_t;
+   
+   typedef enum {
+     SIFT_APER_SMN = 0,
+     SIFT_APER_MMIO = 1,
+   } sift_aperture_t;
+   
+   typedef enum {
+     SIFT_LINEAR_VIDEO_MEM = 0,
+     SIFT_LINEAR_SYSTEM_MEM = 1,
+   } sift_mem_region_t;
+   
+   typedef struct sift_kfd_node_s sift_kfd_node_t;
+   
+   ROCSIFT_EXPORT sift_status_t sift_init();
+   
+   ROCSIFT_EXPORT sift_status_t sift_destroy();
+   
+   ROCSIFT_EXPORT sift_status_t sift_get_device_count(int *n);
+   
+   ROCSIFT_EXPORT sift_status_t sift_get_device(int n, sift_device_t *dev);
+   
+   ROCSIFT_EXPORT sift_status_t sift_device_get_partition_count(sift_device_t dev, int *n);
+   
+   ROCSIFT_EXPORT sift_status_t sift_device_get_partition(sift_device_t dev, sift_partition_t *part,
+                                                          int n);
+   
+   ROCSIFT_EXPORT sift_status_t sift_partition_get_kfd_node(sift_partition_t part,
+                                                            sift_kfd_node_t *node);
+   
+   ROCSIFT_EXPORT sift_status_t sift_device_read_reg32(sift_device_t dev, uint32_t *value,
+                                                       sift_aperture_t ap, uint64_t reg);
+   
+   ROCSIFT_EXPORT sift_status_t sift_device_write_reg32(sift_device_t dev, uint32_t value,
+                                                        sift_aperture_t ap, uint64_t reg);
+   
+   ROCSIFT_EXPORT ssize_t sift_device_read(sift_device_t dev, void *data, sift_mem_region_t region,
+                                           uint64_t addr, size_t size);
+   
+   ROCSIFT_EXPORT ssize_t sift_device_write(sift_device_t dev, const void *data,
+                                            sift_mem_region_t region, uint64_t addr, size_t size);
+   
+   ROCSIFT_EXPORT sift_status_t sift_get_partition_count(int *n);
+   
+   ROCSIFT_EXPORT sift_status_t sift_get_partition(int n, sift_partition_t *part);
+   
+   ROCSIFT_EXPORT sift_status_t sift_partition_get_device(sift_partition_t part, sift_device_t *dev);
+   
+   ROCSIFT_EXPORT sift_status_t sift_partition_get_xcc_count(sift_partition_t part, int *num_xcc);
+   
+   ROCSIFT_EXPORT sift_status_t sift_partition_get_xcc_die_ids(sift_partition_t part, int *xcc_ids,
+                                                               int num_xcc_ids);
+   
+   ROCSIFT_EXPORT sift_status_t sift_partition_read_reg32(sift_partition_t part, uint32_t *value,
+                                                          sift_aperture_t ap, uint64_t reg);
+   
+   ROCSIFT_EXPORT sift_status_t sift_partition_write_reg32(sift_partition_t part, uint32_t value,
+                                                           sift_aperture_t ap, uint64_t reg);
+   
+   ROCSIFT_EXPORT ssize_t sift_partition_read(sift_partition_t part, void *data,
+                                              sift_mem_region_t region, uint64_t addr, size_t size);
+   
+   ROCSIFT_EXPORT ssize_t sift_partition_write(sift_partition_t part, const void *data,
+                                               sift_mem_region_t region, uint64_t addr, size_t size);
+   
+   ROCSIFT_EXPORT sift_status_t sift_partition_get_kfd_node(sift_partition_t part,
+                                                            sift_kfd_node_t *node);
+   
+   ROCSIFT_EXPORT const char *sift_status_get_message(sift_status_t status);
+   
+   #ifdef __cplusplus
+   }
+   #endif  // __cplusplus
+   #endif  // _SIFT_H_

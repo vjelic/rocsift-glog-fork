@@ -1,0 +1,14 @@
+.. _exhale_enum_mtype_8h_1ad0e7416c5f6031daf7c02e8ebdde8568:
+
+Enum sift_mtype_t
+=================
+
+- Defined in :ref:`file_include_rocsift_mtype.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: sift_mtype_t
+   :project: rocsift

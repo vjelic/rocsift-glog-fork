@@ -1,0 +1,329 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Program Listing for File chipid.h &mdash; rocsift  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css?v=a885cde7" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js?v=73120307"></script>
+      <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js?v=660e4f45"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            rocsift
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="rocsift_root.html">Rocsift API</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">rocsift</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Program Listing for File chipid.h</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/api/program_listing_file_include_rocsift_chipid.h.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="program-listing-for-file-chipid-h">
+<span id="program-listing-file-include-rocsift-chipid-h"></span><h1>Program Listing for File chipid.h<a class="headerlink" href="#program-listing-for-file-chipid-h" title="Link to this heading"></a></h1>
+<p>↰ <a class="reference internal" href="file_include_rocsift_chipid.h.html#file-include-rocsift-chipid-h"><span class="std std-ref">Return to documentation for file</span></a> (<code class="docutils literal notranslate"><span class="pre">include/rocsift/chipid.h</span></code>)</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cm">/* Copyright © 2020 Advanced Micro Devices, Inc. All rights reserved */</span>
+
+<span class="cp">#ifndef _SIFT_CHIPID_H</span>
+<span class="cp">#define _SIFT_CHIPID_H</span>
+
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdbool.h&gt;</span>
+
+<span class="k">typedef</span><span class="w"> </span><span class="k">enum</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI10_W5700X</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X7310</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI10_W5700</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X7312</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI10_5700</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X731B</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI10_5600</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X731F</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI21_V620</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X73A1</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI21_W6900X</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X73A2</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI21_W6800</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X73A3</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI21_6950XT</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X73A5</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI21_W6800X</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X73AB</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI21_V620MX</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X73AE</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI21_6900XT</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X73AF</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI21_6800XT</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X73BF</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI31_W7900</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X7448</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI31_7900XT</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X744C</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_NAVI31_W7800</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X745E</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_VEGA20_INSTINCT</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X66A0</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_VEGA20_MI50</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X66A1</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_VEGA20</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X66A2</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_VEGA20_VEGAII</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X66A3</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_VEGA20_VII</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X66AF</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_MI100_0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X7388</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_MI100_1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X738C</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_MI100_2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X738E</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_MI210</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X740F</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_MI250X</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X7408</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_MI250X_MI250</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X740C</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_MI300X</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X74A1</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_MI300X_SRIOV</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X74B5</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_MI300X_HF</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X74A9</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_MI300X_HF_SRIOV</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X74BD</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_MI300A</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X74A0</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_MI300A_SRIOV</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0X74B4</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_MI325X</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x74A5</span><span class="p">,</span>
+<span class="w">  </span><span class="n">SIFT_CHIPID_MI325X_SRIOV</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x74B9</span><span class="p">,</span>
+<span class="p">}</span><span class="w"> </span><span class="n">sift_chipid_t</span><span class="p">;</span>
+
+<span class="k">static</span><span class="w"> </span><span class="kr">inline</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">is_vega20</span><span class="p">(</span><span class="n">sift_chipid_t</span><span class="w"> </span><span class="n">id</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_VEGA20_INSTINCT</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_VEGA20_MI50</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_VEGA20</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_VEGA20_VEGAII</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_VEGA20_VII</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">default</span><span class="o">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">static</span><span class="w"> </span><span class="kr">inline</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">is_mi100</span><span class="p">(</span><span class="n">sift_chipid_t</span><span class="w"> </span><span class="n">id</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_MI100_0</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_MI100_1</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_MI100_2</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">default</span><span class="o">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">static</span><span class="w"> </span><span class="kr">inline</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">is_navi10</span><span class="p">(</span><span class="n">sift_chipid_t</span><span class="w"> </span><span class="n">id</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI10_W5700X</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI10_W5700</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI10_5700</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI10_5600</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">default</span><span class="o">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">static</span><span class="w"> </span><span class="kr">inline</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">is_navi21</span><span class="p">(</span><span class="n">sift_chipid_t</span><span class="w"> </span><span class="n">id</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_V620</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_W6900X</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_W6800</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_6950XT</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_W6800X</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_V620MX</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_6900XT</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_6800XT</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">default</span><span class="o">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">static</span><span class="w"> </span><span class="kr">inline</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">is_navi31</span><span class="p">(</span><span class="n">sift_chipid_t</span><span class="w"> </span><span class="n">id</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_V620</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_W6900X</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_W6800</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_6950XT</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_W6800X</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_V620MX</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_6900XT</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI21_6800XT</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI31_W7900</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI31_7900XT</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_NAVI31_W7800</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">default</span><span class="o">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">static</span><span class="w"> </span><span class="kr">inline</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">is_mi200</span><span class="p">(</span><span class="n">sift_chipid_t</span><span class="w"> </span><span class="n">id</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_MI210</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_MI250X</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_MI250X_MI250</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">default</span><span class="o">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">static</span><span class="w"> </span><span class="kr">inline</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">is_mi300x</span><span class="p">(</span><span class="n">sift_chipid_t</span><span class="w"> </span><span class="n">id</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_MI300X</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_MI300X_SRIOV</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">default</span><span class="o">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">static</span><span class="w"> </span><span class="kr">inline</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">is_mi300x_hf</span><span class="p">(</span><span class="n">sift_chipid_t</span><span class="w"> </span><span class="n">id</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_MI300X_HF</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_MI300X_HF_SRIOV</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">default</span><span class="o">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">static</span><span class="w"> </span><span class="kr">inline</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">is_mi300a</span><span class="p">(</span><span class="n">sift_chipid_t</span><span class="w"> </span><span class="n">id</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_MI300A</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_MI300A_SRIOV</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">default</span><span class="o">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">static</span><span class="w"> </span><span class="kr">inline</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">is_mi325x</span><span class="p">(</span><span class="n">sift_chipid_t</span><span class="w"> </span><span class="n">id</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_MI325X</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">SIFT_CHIPID_MI325X_SRIOV</span><span class="p">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">default</span><span class="o">:</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">static</span><span class="w"> </span><span class="kr">inline</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">is_mi300</span><span class="p">(</span><span class="n">sift_chipid_t</span><span class="w"> </span><span class="n">id</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">is_mi300a</span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">is_mi300x</span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">is_mi300x_hf</span><span class="p">(</span><span class="n">id</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="k">static</span><span class="w"> </span><span class="kr">inline</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="nf">is_mi3xx</span><span class="p">(</span><span class="n">sift_chipid_t</span><span class="w"> </span><span class="n">id</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">is_mi300</span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">is_mi325x</span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">is_mi300x_hf</span><span class="p">(</span><span class="n">id</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="cp">#endif  </span><span class="c1">// _EMBERS_AMDGPU_CHIPID_H_</span>
+</pre></div>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020 Advanced Micro Devices, Inc. All rights reserved.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

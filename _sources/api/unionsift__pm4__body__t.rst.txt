@@ -1,0 +1,14 @@
+.. _exhale_union_unionsift__pm4__body__t:
+
+Union sift_pm4_body_t
+=====================
+
+- Defined in :ref:`file_include_rocsift_pm4.h`
+
+
+Union Documentation
+-------------------
+
+
+.. doxygenunion:: sift_pm4_body_t
+   :project: rocsift

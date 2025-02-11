@@ -1,0 +1,14 @@
+.. _exhale_function_xlator_8h_1abe193e2c42fc65ab5d7650324b8c8ef0:
+
+Function sift_xlator_pt_base_from_pasid
+=======================================
+
+- Defined in :ref:`file_include_rocsift_xlator.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_xlator_pt_base_from_pasid(uint64_t *, sift_kfd_node_t, int)
+   :project: rocsift

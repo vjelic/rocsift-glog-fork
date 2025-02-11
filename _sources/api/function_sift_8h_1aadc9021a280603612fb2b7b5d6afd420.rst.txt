@@ -1,0 +1,14 @@
+.. _exhale_function_sift_8h_1aadc9021a280603612fb2b7b5d6afd420:
+
+Function sift_init
+==================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_init()
+   :project: rocsift

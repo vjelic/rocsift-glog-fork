@@ -1,0 +1,17 @@
+.. _exhale_struct_structsift__pm4__runlist__series__t:
+
+Struct sift_pm4_runlist_series_t
+================================
+
+- Defined in :ref:`file_include_rocsift_pm4.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: sift_pm4_runlist_series_t
+   :project: rocsift
+   :members:
+   :protected-members:
+   :undoc-members:

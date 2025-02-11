@@ -1,0 +1,84 @@
+
+.. _file_include_rocsift_kfd.h:
+
+File kfd.h
+==========
+
+|exhale_lsh| :ref:`Parent directory <dir_include_rocsift>` (``include/rocsift``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/rocsift/kfd.h``)
+--------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_rocsift_kfd.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``rocsift/status.h`` (:ref:`file_include_rocsift_status.h`)
+
+- ``rocsift/visibility.h`` (:ref:`file_include_rocsift_visibility.h`)
+
+- ``stddef.h``
+
+- ``stdint.h``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_rocsift_xlator.h`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structsift__kfd__node__properties__t`
+
+- :ref:`exhale_struct_structsift__kfd__node__t`
+
+- :ref:`exhale_struct_structsift__kfd__proc__list__t`
+
+- :ref:`exhale_struct_structsift__kfd__proc__t`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_kfd_8h_1a9769b5977c45c804abdf067755f2b883`
+
+- :ref:`exhale_function_kfd_8h_1a9710732d0435aef117bfa8c777627806`
+
+- :ref:`exhale_function_kfd_8h_1aaf5879c8964a9caf3bba318d54fd33c7`
+
+- :ref:`exhale_function_kfd_8h_1a13a2f3f0520b5ccfa479cfddcb661d62`
+
+- :ref:`exhale_function_kfd_8h_1a2c54ae64b9e986583b6c67fa71da9ae9`
+
+- :ref:`exhale_function_kfd_8h_1a5e6abad108a962fdca0feaf18e6b5aa8`
+
+- :ref:`exhale_function_kfd_8h_1adee799872b27180fec7e6a82e110d3e1`
+
+- :ref:`exhale_function_kfd_8h_1a409b8b71b341fb66e3f850609ec29157`
+

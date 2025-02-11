@@ -1,0 +1,14 @@
+.. _exhale_function_sift_8h_1a0e41ff430ff210223876d53924f42181:
+
+Function sift_get_partition_count
+=================================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_get_partition_count(int *)
+   :project: rocsift

@@ -1,0 +1,198 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Program Listing for File xlator.h &mdash; rocsift  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css?v=a885cde7" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js?v=73120307"></script>
+      <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js?v=660e4f45"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            rocsift
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="rocsift_root.html">Rocsift API</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">rocsift</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Program Listing for File xlator.h</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/api/program_listing_file_include_rocsift_xlator.h.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="program-listing-for-file-xlator-h">
+<span id="program-listing-file-include-rocsift-xlator-h"></span><h1>Program Listing for File xlator.h<a class="headerlink" href="#program-listing-for-file-xlator-h" title="Link to this heading"></a></h1>
+<p>↰ <a class="reference internal" href="file_include_rocsift_xlator.h.html#file-include-rocsift-xlator-h"><span class="std std-ref">Return to documentation for file</span></a> (<code class="docutils literal notranslate"><span class="pre">include/rocsift/xlator.h</span></code>)</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cm">/* Copyright © 2020 Advanced Micro Devices, Inc. All rights reserved */</span>
+
+<span class="cp">#ifndef _SIFT_XLATOR_H_</span>
+<span class="cp">#define _SIFT_XLATOR_H_</span>
+
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;rocsift/kfd.h&quot;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;rocsift/sift.h&quot;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;rocsift/visibility.h&quot;</span>
+
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;stdint.h&quot;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;stdbool.h&quot;</span>
+
+<span class="cp">#ifdef __cplusplus</span>
+<span class="k">extern</span><span class="w"> </span><span class="s">&quot;C&quot;</span><span class="w"> </span><span class="p">{</span>
+<span class="cp">#endif  </span><span class="c1">// __cplusplus</span>
+
+<span class="k">typedef</span><span class="w"> </span><span class="k">struct</span><span class="w"> </span><span class="nc">pte_s</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">valid</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">system</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">coherent</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">tmz</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">execute</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">read</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">write</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">fragment</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint64_t</span><span class="w"> </span><span class="n">base_address</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">tiled</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">sw</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">pte</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">log</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">translate_further</span><span class="p">;</span><span class="w">  </span><span class="c1">// PTEs who themselves defined as pointers to further PTE lookup</span>
+<span class="w">  </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">mtype</span><span class="p">;</span>
+<span class="p">}</span><span class="w"> </span><span class="n">pte_t</span><span class="p">;</span>
+
+<span class="k">typedef</span><span class="w"> </span><span class="k">struct</span><span class="w"> </span><span class="nc">translation_s</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kt">uintptr_t</span><span class="w"> </span><span class="n">pa</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">bool</span><span class="w"> </span><span class="n">ok</span><span class="p">;</span>
+<span class="w">  </span><span class="n">pte_t</span><span class="w"> </span><span class="n">pte</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">size_t</span><span class="w"> </span><span class="n">size</span><span class="p">;</span>
+<span class="p">}</span><span class="w"> </span><span class="n">translation_t</span><span class="p">;</span>
+
+<span class="k">typedef</span><span class="w"> </span><span class="k">struct</span><span class="w"> </span><span class="nc">fragment_s</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kt">uintptr_t</span><span class="w"> </span><span class="n">va</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uintptr_t</span><span class="w"> </span><span class="n">pa</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">size_t</span><span class="w"> </span><span class="n">size</span><span class="p">;</span>
+<span class="w">  </span><span class="n">pte_t</span><span class="w"> </span><span class="n">flags</span><span class="p">;</span>
+<span class="p">}</span><span class="w"> </span><span class="n">fragment_t</span><span class="p">;</span>
+
+<span class="k">typedef</span><span class="w"> </span><span class="k">struct</span><span class="w"> </span><span class="nc">fragment_list_s</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="n">fragment_t</span><span class="w"> </span><span class="n">fragment</span><span class="p">;</span>
+<span class="w">  </span><span class="k">struct</span><span class="w"> </span><span class="nc">fragment_list_s</span><span class="w"> </span><span class="o">*</span><span class="n">next</span><span class="p">;</span>
+<span class="p">}</span><span class="w"> </span><span class="n">fragment_list_t</span><span class="p">;</span>
+
+<span class="k">typedef</span><span class="w"> </span><span class="k">struct</span><span class="w"> </span><span class="nc">xlator_s</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="n">sift_partition_t</span><span class="w"> </span><span class="n">part</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">int</span><span class="w"> </span><span class="n">vmid</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint32_t</span><span class="w"> </span><span class="n">pt_base_addr_lo_addr</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint32_t</span><span class="w"> </span><span class="n">pt_base_addr_hi_addr</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint32_t</span><span class="w"> </span><span class="n">pt_start_addr_lo_addr</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint32_t</span><span class="w"> </span><span class="n">pt_start_addr_hi_addr</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint32_t</span><span class="w"> </span><span class="n">pt_end_addr_lo_addr</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint32_t</span><span class="w"> </span><span class="n">pt_end_addr_hi_addr</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint32_t</span><span class="w"> </span><span class="n">context_cntl_addr</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint32_t</span><span class="w"> </span><span class="n">mc_vm_fb_offset_addr</span><span class="p">;</span>
+<span class="w">  </span><span class="kt">uint32_t</span><span class="w"> </span><span class="n">mc_vm_fb_location_addr</span><span class="p">;</span>
+<span class="p">}</span><span class="w"> </span><span class="n">xlator_t</span><span class="p">;</span>
+
+<span class="n">ROCSIFT_EXPORT</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sift_xlator_create_for_current_process</span><span class="p">(</span><span class="n">xlator_t</span><span class="w"> </span><span class="o">*</span><span class="n">xlator</span><span class="p">,</span><span class="w"> </span><span class="n">sift_partition_t</span><span class="w"> </span><span class="n">part</span><span class="p">);</span>
+<span class="n">ROCSIFT_EXPORT</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sift_xlator_create_for_process</span><span class="p">(</span><span class="n">xlator_t</span><span class="w"> </span><span class="o">*</span><span class="n">xlator</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">pid</span><span class="p">,</span><span class="w"> </span><span class="n">sift_partition_t</span><span class="w"> </span><span class="n">part</span><span class="p">);</span>
+
+<span class="n">ROCSIFT_EXPORT</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sift_xlator_pt_base_from_pasid</span><span class="p">(</span><span class="kt">uint64_t</span><span class="w"> </span><span class="o">*</span><span class="n">pt_base</span><span class="p">,</span><span class="w"> </span><span class="n">sift_kfd_node_t</span><span class="w"> </span><span class="n">node</span><span class="p">,</span>
+<span class="w">                                                  </span><span class="kt">int</span><span class="w"> </span><span class="n">pasid</span><span class="p">);</span>
+<span class="n">ROCSIFT_EXPORT</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sift_xlator_vmid_from_pt_base</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="o">*</span><span class="n">vmid</span><span class="p">,</span><span class="w"> </span><span class="n">sift_partition_t</span><span class="w"> </span><span class="n">part</span><span class="p">,</span>
+<span class="w">                                                 </span><span class="n">sift_kfd_node_t</span><span class="w"> </span><span class="n">node</span><span class="p">,</span><span class="w"> </span><span class="kt">uint64_t</span><span class="w"> </span><span class="n">pt_base</span><span class="p">);</span>
+<span class="n">ROCSIFT_EXPORT</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sift_xlator_create</span><span class="p">(</span><span class="n">xlator_t</span><span class="w"> </span><span class="o">*</span><span class="n">xlator</span><span class="p">,</span><span class="w"> </span><span class="n">sift_partition_t</span><span class="w"> </span><span class="n">part</span><span class="p">,</span><span class="w"> </span><span class="n">sift_kfd_node_t</span><span class="w"> </span><span class="n">node</span><span class="p">,</span>
+<span class="w">                                      </span><span class="kt">int</span><span class="w"> </span><span class="n">vmid</span><span class="p">);</span>
+<span class="n">ROCSIFT_EXPORT</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sift_xlator_destroy</span><span class="p">(</span><span class="n">xlator_t</span><span class="w"> </span><span class="o">*</span><span class="n">xlator</span><span class="p">);</span>
+<span class="n">ROCSIFT_EXPORT</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sift_xlator_translate</span><span class="p">(</span><span class="n">xlator_t</span><span class="w"> </span><span class="o">*</span><span class="n">xlate</span><span class="p">,</span><span class="w"> </span><span class="n">translation_t</span><span class="w"> </span><span class="o">*</span><span class="n">trans</span><span class="p">,</span><span class="w"> </span><span class="kt">uintptr_t</span><span class="w"> </span><span class="n">va</span><span class="p">);</span>
+<span class="n">ROCSIFT_EXPORT</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sift_xlator_translate_range</span><span class="p">(</span><span class="n">xlator_t</span><span class="w"> </span><span class="o">*</span><span class="n">xlate</span><span class="p">,</span><span class="w"> </span><span class="n">fragment_list_t</span><span class="w"> </span><span class="o">**</span><span class="n">list</span><span class="p">,</span>
+<span class="w">                                               </span><span class="kt">uintptr_t</span><span class="w"> </span><span class="n">va</span><span class="p">,</span><span class="w"> </span><span class="kt">size_t</span><span class="w"> </span><span class="n">size</span><span class="p">,</span>
+<span class="w">                                               </span><span class="kt">bool</span><span class="w"> </span><span class="n">combine_contiguous_pages</span><span class="p">);</span>
+<span class="n">ROCSIFT_EXPORT</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sift_xlator_fragment_list_destroy</span><span class="p">(</span><span class="n">fragment_list_t</span><span class="w"> </span><span class="o">*</span><span class="n">list</span><span class="p">);</span>
+
+<span class="cp">#ifdef __cplusplus</span>
+<span class="p">}</span>
+
+<span class="cp">#endif  </span><span class="c1">// __cplusplus</span>
+<span class="cp">#endif  </span><span class="c1">// _SIFT_XLATOR_H_</span>
+</pre></div>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020 Advanced Micro Devices, Inc. All rights reserved.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

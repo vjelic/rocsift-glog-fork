@@ -1,0 +1,14 @@
+.. _exhale_enum_chipid_8h_1aa90e641d9078c113b8a30b23b843cdf8:
+
+Enum sift_chipid_t
+==================
+
+- Defined in :ref:`file_include_rocsift_chipid.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: sift_chipid_t
+   :project: rocsift

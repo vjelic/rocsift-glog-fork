@@ -1,0 +1,14 @@
+.. _exhale_function_sift_8h_1ae8ad68d27efbc687b37cb5830baf7175:
+
+Function sift_partition_get_kfd_node
+====================================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_partition_get_kfd_node(sift_partition_t, sift_kfd_node_t *)
+   :project: rocsift

@@ -1,0 +1,17 @@
+.. _exhale_struct_structxlator__t:
+
+Struct xlator_t
+===============
+
+- Defined in :ref:`file_include_rocsift_xlator.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: xlator_t
+   :project: rocsift
+   :members:
+   :protected-members:
+   :undoc-members:

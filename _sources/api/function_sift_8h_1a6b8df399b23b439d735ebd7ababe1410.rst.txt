@@ -1,0 +1,14 @@
+.. _exhale_function_sift_8h_1a6b8df399b23b439d735ebd7ababe1410:
+
+Function sift_partition_get_xcc_count
+=====================================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_partition_get_xcc_count(sift_partition_t, int *)
+   :project: rocsift

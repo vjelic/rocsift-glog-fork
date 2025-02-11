@@ -1,0 +1,36 @@
+# Copyright © 2020 Advanced Micro Devices, Inc. All rights reserved
+
+
+stages:          # List of stages for jobs, and their order of execution
+  - build
+  - test
+  - upload
+  - release
+
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'gh-pages'
+      when: never
+    - if: $CI_COMMIT_MESSAGE =~ /-draft$/
+      when: never
+    - when: always
+
+include:
+  - local: 'ci/external/*.yml'
+    rules:
+      - if: '$CI_COMMIT_TAG =~ /^external_v\d+\.\d+\.\d+$/'
+  - local: 'ci/internal/*.yml'
+    rules:
+      - if: '$CI_COMMIT_TAG !~ /^external_v\d+\.\d+\.\d+$/'
+
+
+variables:
+  PACKAGE_REGISTRY_URL: "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic"
+  GIT_SUBMODULE_STRATEGY: recursive
+  # Set these to alter the internal and external images used for building and testing
+  UBUNTU20_04_IMAGE: $CI_REGISTRY/dcgpu-exercisers/build-images:rocm_dev_ubuntu_20_04_rocm_build-13054_amdgpu_buildnum-1684805_go_version-1.20.4
+  UBUNTU22_04_IMAGE: $CI_REGISTRY/dcgpu-exercisers/build-images:rocm_dev_ubuntu_22_04_rocm_build-13054_amdgpu_buildnum-1684805_go_version-1.20.4
+  RHEL8_6_IMAGE: $CI_REGISTRY/dcgpu-exercisers/build-images:rocm_dev_rhel_8_6_rocm_build-13054_amdgpu_buildnum-1684805_go_version-1.20.4
+  SLES15_IMAGE: ${CI_REGISTRY}/dcgpu-exercisers/build-images:rocm_dev_sles_15_4_rocm_build-13054_amdgpu_buildnum-1684805_go_version-1.20.4
+  MARINER_IMAGE: ${CI_REGISTRY}/dcgpu-exercisers/build-images:rocm_dev_mariner_2_0
+  CENTOS9_IMAGE: ${CI_REGISTRY}/dcgpu-exercisers/build-images:rocm_dev_centos_9_rocm_build-13054_amdgpu_buildnum-1684805_go_version-1.20.4

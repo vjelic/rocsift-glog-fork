@@ -1,0 +1,14 @@
+.. _exhale_enum_sift_8h_1ae4f3483e524f8a5a9de35716fd7b1360:
+
+Enum sift_aperture_t
+====================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: sift_aperture_t
+   :project: rocsift

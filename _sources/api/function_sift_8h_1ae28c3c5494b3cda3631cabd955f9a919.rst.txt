@@ -1,0 +1,14 @@
+.. _exhale_function_sift_8h_1ae28c3c5494b3cda3631cabd955f9a919:
+
+Function sift_get_device_count
+==============================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_get_device_count(int *)
+   :project: rocsift

@@ -1,0 +1,14 @@
+.. _exhale_enum_pm4_8h_1a1cd3a465b2eb64659c3824b102833785:
+
+Enum sift_pm4_pm4_opcode_t
+==========================
+
+- Defined in :ref:`file_include_rocsift_pm4.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: sift_pm4_pm4_opcode_t
+   :project: rocsift

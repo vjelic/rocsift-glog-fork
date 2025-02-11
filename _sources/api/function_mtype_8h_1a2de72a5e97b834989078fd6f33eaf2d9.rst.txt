@@ -1,0 +1,14 @@
+.. _exhale_function_mtype_8h_1a2de72a5e97b834989078fd6f33eaf2d9:
+
+Function decode_mtype
+=====================
+
+- Defined in :ref:`file_include_rocsift_mtype.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: decode_mtype(uint8_t, const char **, sift_chipid_t)
+   :project: rocsift

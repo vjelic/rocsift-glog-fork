@@ -1,0 +1,14 @@
+.. _exhale_function_xlator_8h_1aa9fb37a5c0beee4e958ee1a860d1646b:
+
+Function sift_xlator_fragment_list_destroy
+==========================================
+
+- Defined in :ref:`file_include_rocsift_xlator.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_xlator_fragment_list_destroy(fragment_list_t *)
+   :project: rocsift

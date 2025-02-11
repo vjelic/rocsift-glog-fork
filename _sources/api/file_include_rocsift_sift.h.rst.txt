@@ -1,0 +1,119 @@
+
+.. _file_include_rocsift_sift.h:
+
+File sift.h
+===========
+
+|exhale_lsh| :ref:`Parent directory <dir_include_rocsift>` (``include/rocsift``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/rocsift/sift.h``)
+---------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_rocsift_sift.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``rocsift/status.h`` (:ref:`file_include_rocsift_status.h`)
+
+- ``rocsift/visibility.h`` (:ref:`file_include_rocsift_visibility.h`)
+
+- ``stddef.h``
+
+- ``stdint.h``
+
+- ``sys/types.h``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_rocsift_xlator.h`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structsift__device__t`
+
+- :ref:`exhale_struct_structsift__partition__t`
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_sift_8h_1ae4f3483e524f8a5a9de35716fd7b1360`
+
+- :ref:`exhale_enum_sift_8h_1aa9670ab3ebf3ba3cb5bbe85cb8579db7`
+
+- :ref:`exhale_enum_sift_8h_1a17a86ed2010023c76c0155895b659951`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_sift_8h_1a142357554d2033313ebff7f1822bbef4`
+
+- :ref:`exhale_function_sift_8h_1a2966e1fd7119c2316298e10233261422`
+
+- :ref:`exhale_function_sift_8h_1ae1673ebd2fbb00f6f207b9c27697c52d`
+
+- :ref:`exhale_function_sift_8h_1a6528021a80b20f9b8814beb7e34421ab`
+
+- :ref:`exhale_function_sift_8h_1ac00f142f3db6dcb1811f2c14ded252fa`
+
+- :ref:`exhale_function_sift_8h_1a999248f8c8139141be6e189f375f6e2b`
+
+- :ref:`exhale_function_sift_8h_1a0bf05fe3dc09b6230471742f30c94b47`
+
+- :ref:`exhale_function_sift_8h_1a6599c14b1d57bbb03db176ecfbbbe8a8`
+
+- :ref:`exhale_function_sift_8h_1ae28c3c5494b3cda3631cabd955f9a919`
+
+- :ref:`exhale_function_sift_8h_1aa70e08dfe6e84a3a64bca90577a57ec0`
+
+- :ref:`exhale_function_sift_8h_1a0e41ff430ff210223876d53924f42181`
+
+- :ref:`exhale_function_sift_8h_1aadc9021a280603612fb2b7b5d6afd420`
+
+- :ref:`exhale_function_sift_8h_1a2f146b7aadfd0047f1480a02234364f8`
+
+- :ref:`exhale_function_sift_8h_1ae8ad68d27efbc687b37cb5830baf7175`
+
+- :ref:`exhale_function_sift_8h_1a6b8df399b23b439d735ebd7ababe1410`
+
+- :ref:`exhale_function_sift_8h_1a57f7df25cc32d530aa73dc7af21d1f3a`
+
+- :ref:`exhale_function_sift_8h_1af1c5fe8759a2cae0fce205497786a816`
+
+- :ref:`exhale_function_sift_8h_1a020cf4fd9fa4b110e2627360b9555608`
+
+- :ref:`exhale_function_sift_8h_1a962245f8b0cf889a3c41cfa5e77cc8f4`
+
+- :ref:`exhale_function_sift_8h_1a4437f650980057a331dd7c429c39b929`
+
+- :ref:`exhale_function_sift_8h_1a40e525cd18a62e6ba80c7032af85d009`
+

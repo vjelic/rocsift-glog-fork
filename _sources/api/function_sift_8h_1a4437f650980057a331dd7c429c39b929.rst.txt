@@ -1,0 +1,14 @@
+.. _exhale_function_sift_8h_1a4437f650980057a331dd7c429c39b929:
+
+Function sift_partition_write_reg32
+===================================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_partition_write_reg32(sift_partition_t, uint32_t, sift_aperture_t, uint64_t)
+   :project: rocsift

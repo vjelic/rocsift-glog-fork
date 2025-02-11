@@ -1,0 +1,14 @@
+.. _exhale_function_kfd_8h_1a409b8b71b341fb66e3f850609ec29157:
+
+Function sift_kfd_proc_list_destroy
+===================================
+
+- Defined in :ref:`file_include_rocsift_kfd.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_kfd_proc_list_destroy(sift_kfd_proc_list_t *)
+   :project: rocsift

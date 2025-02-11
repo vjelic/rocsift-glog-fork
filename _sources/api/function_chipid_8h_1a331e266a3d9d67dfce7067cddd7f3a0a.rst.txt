@@ -1,0 +1,14 @@
+.. _exhale_function_chipid_8h_1a331e266a3d9d67dfce7067cddd7f3a0a:
+
+Function is_mi300a
+==================
+
+- Defined in :ref:`file_include_rocsift_chipid.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: is_mi300a(sift_chipid_t)
+   :project: rocsift

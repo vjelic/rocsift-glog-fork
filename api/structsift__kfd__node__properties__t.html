@@ -1,0 +1,350 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Struct sift_kfd_node_properties_t &mdash; rocsift  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css?v=a885cde7" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js?v=73120307"></script>
+      <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js?v=660e4f45"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Struct sift_kfd_node_t" href="structsift__kfd__node__t.html" />
+    <link rel="prev" title="Struct sift_device_t" href="structsift__device__t.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            rocsift
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="rocsift_root.html">Rocsift API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="rocsift_root.html#class-hierarchy">Class Hierarchy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rocsift_root.html#file-hierarchy">File Hierarchy</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="rocsift_root.html#full-api">Full API</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="rocsift_root.html#classes-and-structs">Classes and Structs</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="structfragment__list__t.html">Struct fragment_list_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structfragment__t.html">Struct fragment_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structpte__t.html">Struct pte_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structsift__device__t.html">Struct sift_device_t</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Struct sift_kfd_node_properties_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structsift__kfd__node__t.html">Struct sift_kfd_node_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structsift__kfd__proc__list__t.html">Struct sift_kfd_proc_list_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structsift__kfd__proc__t.html">Struct sift_kfd_proc_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structsift__partition__t.html">Struct sift_partition_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structsift__pm4__body__map__process__t.html">Struct sift_pm4_body_map_process_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structsift__pm4__body__map__queues__t.html">Struct sift_pm4_body_map_queues_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structsift__pm4__header__t.html">Struct sift_pm4_header_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structsift__pm4__node__t.html">Struct sift_pm4_node_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structsift__pm4__runlist__entry__t.html">Struct sift_pm4_runlist_entry_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structsift__pm4__runlist__series__t.html">Struct sift_pm4_runlist_series_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structsift__pm4__runlist__t.html">Struct sift_pm4_runlist_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structtranslation__t.html">Struct translation_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structxlator__t.html">Struct xlator_t</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#enums">Enums</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#unions">Unions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#functions">Functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#variables">Variables</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rocsift_root.html#defines">Defines</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">rocsift</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="rocsift_root.html">Rocsift API</a></li>
+      <li class="breadcrumb-item active">Struct sift_kfd_node_properties_t</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/api/structsift__kfd__node__properties__t.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="struct-sift-kfd-node-properties-t">
+<span id="exhale-struct-structsift-kfd-node-properties-t"></span><h1>Struct sift_kfd_node_properties_t<a class="headerlink" href="#struct-sift-kfd-node-properties-t" title="Link to this heading"></a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file_include_rocsift_kfd.h.html#file-include-rocsift-kfd-h"><span class="std std-ref">File kfd.h</span></a></p></li>
+</ul>
+<section id="struct-documentation">
+<h2>Struct Documentation<a class="headerlink" href="#struct-documentation" title="Link to this heading"></a></h2>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv426sift_kfd_node_properties_t">
+<span id="_CPPv326sift_kfd_node_properties_t"></span><span id="_CPPv226sift_kfd_node_properties_t"></span><span id="sift_kfd_node_properties_t"></span><span class="target" id="structsift__kfd__node__properties__t"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">sift_kfd_node_properties_t</span></span></span><a class="headerlink" href="#_CPPv426sift_kfd_node_properties_t" title="Link to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t15cpu_cores_countE">
+<span id="_CPPv3N26sift_kfd_node_properties_t15cpu_cores_countE"></span><span id="_CPPv2N26sift_kfd_node_properties_t15cpu_cores_countE"></span><span id="sift_kfd_node_properties_t::cpu_cores_count__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a2e55e200a402bee89bfafec664d23f7c"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">cpu_cores_count</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t15cpu_cores_countE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t10simd_countE">
+<span id="_CPPv3N26sift_kfd_node_properties_t10simd_countE"></span><span id="_CPPv2N26sift_kfd_node_properties_t10simd_countE"></span><span id="sift_kfd_node_properties_t::simd_count__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a9487e15c56233196e331a88892e2ccee"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">simd_count</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t10simd_countE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t15mem_banks_countE">
+<span id="_CPPv3N26sift_kfd_node_properties_t15mem_banks_countE"></span><span id="_CPPv2N26sift_kfd_node_properties_t15mem_banks_countE"></span><span id="sift_kfd_node_properties_t::mem_banks_count__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a1c34160ce16fcf9d62222d16f859623b"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mem_banks_count</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t15mem_banks_countE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t12caches_countE">
+<span id="_CPPv3N26sift_kfd_node_properties_t12caches_countE"></span><span id="_CPPv2N26sift_kfd_node_properties_t12caches_countE"></span><span id="sift_kfd_node_properties_t::caches_count__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a16d2c2e9df48bc5739dc95571d5bcfb6"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">caches_count</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t12caches_countE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t14io_links_countE">
+<span id="_CPPv3N26sift_kfd_node_properties_t14io_links_countE"></span><span id="_CPPv2N26sift_kfd_node_properties_t14io_links_countE"></span><span id="sift_kfd_node_properties_t::io_links_count__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a618f62a84ae564f38d82fa24d412bee3"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">io_links_count</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t14io_links_countE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t15p2p_links_countE">
+<span id="_CPPv3N26sift_kfd_node_properties_t15p2p_links_countE"></span><span id="_CPPv2N26sift_kfd_node_properties_t15p2p_links_countE"></span><span id="sift_kfd_node_properties_t::p2p_links_count__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a8fe1c9806dc40168e30845276cf4cffd"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">p2p_links_count</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t15p2p_links_countE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t16cpu_core_id_baseE">
+<span id="_CPPv3N26sift_kfd_node_properties_t16cpu_core_id_baseE"></span><span id="_CPPv2N26sift_kfd_node_properties_t16cpu_core_id_baseE"></span><span id="sift_kfd_node_properties_t::cpu_core_id_base__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a1075405e00fa9c3f88159403db6eda1d"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">cpu_core_id_base</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t16cpu_core_id_baseE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t12simd_id_baseE">
+<span id="_CPPv3N26sift_kfd_node_properties_t12simd_id_baseE"></span><span id="_CPPv2N26sift_kfd_node_properties_t12simd_id_baseE"></span><span id="sift_kfd_node_properties_t::simd_id_base__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1aec3d667ce531f4719282fba22fcb96f2"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">simd_id_base</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t12simd_id_baseE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t18max_waves_per_simdE">
+<span id="_CPPv3N26sift_kfd_node_properties_t18max_waves_per_simdE"></span><span id="_CPPv2N26sift_kfd_node_properties_t18max_waves_per_simdE"></span><span id="sift_kfd_node_properties_t::max_waves_per_simd__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a77cc529600839684f3736cb0593b373c"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">max_waves_per_simd</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t18max_waves_per_simdE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t14lds_size_in_kbE">
+<span id="_CPPv3N26sift_kfd_node_properties_t14lds_size_in_kbE"></span><span id="_CPPv2N26sift_kfd_node_properties_t14lds_size_in_kbE"></span><span id="sift_kfd_node_properties_t::lds_size_in_kb__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a4d4cd0d64eee117465904435760ff82f"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lds_size_in_kb</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t14lds_size_in_kbE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t14gds_size_in_kbE">
+<span id="_CPPv3N26sift_kfd_node_properties_t14gds_size_in_kbE"></span><span id="_CPPv2N26sift_kfd_node_properties_t14gds_size_in_kbE"></span><span id="sift_kfd_node_properties_t::gds_size_in_kb__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1ab45660486829dd1f1be2fb9837906049"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gds_size_in_kb</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t14gds_size_in_kbE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t7num_gwsE">
+<span id="_CPPv3N26sift_kfd_node_properties_t7num_gwsE"></span><span id="_CPPv2N26sift_kfd_node_properties_t7num_gwsE"></span><span id="sift_kfd_node_properties_t::num_gws__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1aff854032575c74043abef91b4d4831e2"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">num_gws</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t7num_gwsE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t15wave_front_sizeE">
+<span id="_CPPv3N26sift_kfd_node_properties_t15wave_front_sizeE"></span><span id="_CPPv2N26sift_kfd_node_properties_t15wave_front_sizeE"></span><span id="sift_kfd_node_properties_t::wave_front_size__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1ac19227e4a10c4b0faff8af3e6d78b6cd"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">wave_front_size</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t15wave_front_sizeE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t11array_countE">
+<span id="_CPPv3N26sift_kfd_node_properties_t11array_countE"></span><span id="_CPPv2N26sift_kfd_node_properties_t11array_countE"></span><span id="sift_kfd_node_properties_t::array_count__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1add100beb50201ac8dcbbe5cdb03f3caa"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">array_count</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t11array_countE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t22simd_arrays_per_engineE">
+<span id="_CPPv3N26sift_kfd_node_properties_t22simd_arrays_per_engineE"></span><span id="_CPPv2N26sift_kfd_node_properties_t22simd_arrays_per_engineE"></span><span id="sift_kfd_node_properties_t::simd_arrays_per_engine__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a57d82c09a99b4eef31a97b0bfe68290c"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">simd_arrays_per_engine</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t22simd_arrays_per_engineE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t17cu_per_simd_arrayE">
+<span id="_CPPv3N26sift_kfd_node_properties_t17cu_per_simd_arrayE"></span><span id="_CPPv2N26sift_kfd_node_properties_t17cu_per_simd_arrayE"></span><span id="sift_kfd_node_properties_t::cu_per_simd_array__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1ab24be08d1f5641d377a7472764b0a38a"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">cu_per_simd_array</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t17cu_per_simd_arrayE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t11simd_per_cuE">
+<span id="_CPPv3N26sift_kfd_node_properties_t11simd_per_cuE"></span><span id="_CPPv2N26sift_kfd_node_properties_t11simd_per_cuE"></span><span id="sift_kfd_node_properties_t::simd_per_cu__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a26d3df90874b4c4d36108f649fd99ab1"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">simd_per_cu</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t11simd_per_cuE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t20max_slots_scratch_cuE">
+<span id="_CPPv3N26sift_kfd_node_properties_t20max_slots_scratch_cuE"></span><span id="_CPPv2N26sift_kfd_node_properties_t20max_slots_scratch_cuE"></span><span id="sift_kfd_node_properties_t::max_slots_scratch_cu__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a4063e9e7d318f79cbb26d190e0c5e602"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">max_slots_scratch_cu</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t20max_slots_scratch_cuE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t18gfx_target_versionE">
+<span id="_CPPv3N26sift_kfd_node_properties_t18gfx_target_versionE"></span><span id="_CPPv2N26sift_kfd_node_properties_t18gfx_target_versionE"></span><span id="sift_kfd_node_properties_t::gfx_target_version__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a7f621ae31ce221674949a5beff0ee0b0"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gfx_target_version</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t18gfx_target_versionE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t9vendor_idE">
+<span id="_CPPv3N26sift_kfd_node_properties_t9vendor_idE"></span><span id="_CPPv2N26sift_kfd_node_properties_t9vendor_idE"></span><span id="sift_kfd_node_properties_t::vendor_id__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a6bfa82eed0f0d5cf013a9685e41ab872"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">vendor_id</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t9vendor_idE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t9device_idE">
+<span id="_CPPv3N26sift_kfd_node_properties_t9device_idE"></span><span id="_CPPv2N26sift_kfd_node_properties_t9device_idE"></span><span id="sift_kfd_node_properties_t::device_id__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a91a2ab8cdf433296aa1733e5872317a0"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">device_id</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t9device_idE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t11location_idE">
+<span id="_CPPv3N26sift_kfd_node_properties_t11location_idE"></span><span id="_CPPv2N26sift_kfd_node_properties_t11location_idE"></span><span id="sift_kfd_node_properties_t::location_id__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a8b58ef9ffb20457906cf93cb8da36701"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">location_id</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t11location_idE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t9domain_idE">
+<span id="_CPPv3N26sift_kfd_node_properties_t9domain_idE"></span><span id="_CPPv2N26sift_kfd_node_properties_t9domain_idE"></span><span id="sift_kfd_node_properties_t::domain_id__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a762420587ae97af37ae14d51d8654b57"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">domain_id</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t9domain_idE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t16drm_render_minorE">
+<span id="_CPPv3N26sift_kfd_node_properties_t16drm_render_minorE"></span><span id="_CPPv2N26sift_kfd_node_properties_t16drm_render_minorE"></span><span id="sift_kfd_node_properties_t::drm_render_minor__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1ad97a0633c9921647c3e5d57b1717b1de"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">drm_render_minor</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t16drm_render_minorE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t7hive_idE">
+<span id="_CPPv3N26sift_kfd_node_properties_t7hive_idE"></span><span id="_CPPv2N26sift_kfd_node_properties_t7hive_idE"></span><span id="sift_kfd_node_properties_t::hive_id__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a4a4e7bdf89bbf1c05c5101bd528820b5"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">hive_id</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t7hive_idE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t16num_sdma_enginesE">
+<span id="_CPPv3N26sift_kfd_node_properties_t16num_sdma_enginesE"></span><span id="_CPPv2N26sift_kfd_node_properties_t16num_sdma_enginesE"></span><span id="sift_kfd_node_properties_t::num_sdma_engines__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a625db0a9c71cc4be9cfb8140b79aa525"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">num_sdma_engines</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t16num_sdma_enginesE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t21num_sdma_xgmi_enginesE">
+<span id="_CPPv3N26sift_kfd_node_properties_t21num_sdma_xgmi_enginesE"></span><span id="_CPPv2N26sift_kfd_node_properties_t21num_sdma_xgmi_enginesE"></span><span id="sift_kfd_node_properties_t::num_sdma_xgmi_engines__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1ad79429bdf4fa762c7a8d280ef098af68"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">num_sdma_xgmi_engines</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t21num_sdma_xgmi_enginesE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t26num_sdma_queues_per_engineE">
+<span id="_CPPv3N26sift_kfd_node_properties_t26num_sdma_queues_per_engineE"></span><span id="_CPPv2N26sift_kfd_node_properties_t26num_sdma_queues_per_engineE"></span><span id="sift_kfd_node_properties_t::num_sdma_queues_per_engine__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a7509b93d25016571082a4b3590c59bdd"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">num_sdma_queues_per_engine</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t26num_sdma_queues_per_engineE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t13num_cp_queuesE">
+<span id="_CPPv3N26sift_kfd_node_properties_t13num_cp_queuesE"></span><span id="_CPPv2N26sift_kfd_node_properties_t13num_cp_queuesE"></span><span id="sift_kfd_node_properties_t::num_cp_queues__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1adf2cd1232b0d6001d5d43aad3d425003"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">num_cp_queues</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t13num_cp_queuesE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t23max_engine_clk_fcomputeE">
+<span id="_CPPv3N26sift_kfd_node_properties_t23max_engine_clk_fcomputeE"></span><span id="_CPPv2N26sift_kfd_node_properties_t23max_engine_clk_fcomputeE"></span><span id="sift_kfd_node_properties_t::max_engine_clk_fcompute__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a8f52c5623aec14acd8fd39229d74cca2"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">max_engine_clk_fcompute</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t23max_engine_clk_fcomputeE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t14local_mem_sizeE">
+<span id="_CPPv3N26sift_kfd_node_properties_t14local_mem_sizeE"></span><span id="_CPPv2N26sift_kfd_node_properties_t14local_mem_sizeE"></span><span id="sift_kfd_node_properties_t::local_mem_size__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1af8e93e877e367f93a31b130ab92d61c5"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">local_mem_size</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t14local_mem_sizeE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t10fw_versionE">
+<span id="_CPPv3N26sift_kfd_node_properties_t10fw_versionE"></span><span id="_CPPv2N26sift_kfd_node_properties_t10fw_versionE"></span><span id="sift_kfd_node_properties_t::fw_version__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a215e1289bc356ab31a6399e1b67b2e7e"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">fw_version</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t10fw_versionE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t10capabilityE">
+<span id="_CPPv3N26sift_kfd_node_properties_t10capabilityE"></span><span id="_CPPv2N26sift_kfd_node_properties_t10capabilityE"></span><span id="sift_kfd_node_properties_t::capability__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1ae101a09680da4a1151585f423f1cd0f1"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">capability</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t10capabilityE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t10debug_propE">
+<span id="_CPPv3N26sift_kfd_node_properties_t10debug_propE"></span><span id="_CPPv2N26sift_kfd_node_properties_t10debug_propE"></span><span id="sift_kfd_node_properties_t::debug_prop__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a2c3e5420ad91f7347d467d8e63756d2f"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">debug_prop</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t10debug_propE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t15sdma_fw_versionE">
+<span id="_CPPv3N26sift_kfd_node_properties_t15sdma_fw_versionE"></span><span id="_CPPv2N26sift_kfd_node_properties_t15sdma_fw_versionE"></span><span id="sift_kfd_node_properties_t::sdma_fw_version__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a3f61bfd4ff19166613e10d94693080b1"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">sdma_fw_version</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t15sdma_fw_versionE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t9unique_idE">
+<span id="_CPPv3N26sift_kfd_node_properties_t9unique_idE"></span><span id="_CPPv2N26sift_kfd_node_properties_t9unique_idE"></span><span id="sift_kfd_node_properties_t::unique_id__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1acff33fea8da703c97a6cef522251a785"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">unique_id</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t9unique_idE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t7num_xccE">
+<span id="_CPPv3N26sift_kfd_node_properties_t7num_xccE"></span><span id="_CPPv2N26sift_kfd_node_properties_t7num_xccE"></span><span id="sift_kfd_node_properties_t::num_xcc__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1a8e9858b440d4f1a13a1d600fe154b1cf"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">num_xcc</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t7num_xccE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N26sift_kfd_node_properties_t23max_engine_clk_ccomputeE">
+<span id="_CPPv3N26sift_kfd_node_properties_t23max_engine_clk_ccomputeE"></span><span id="_CPPv2N26sift_kfd_node_properties_t23max_engine_clk_ccomputeE"></span><span id="sift_kfd_node_properties_t::max_engine_clk_ccompute__uint64_t"></span><span class="target" id="structsift__kfd__node__properties__t_1abb5364fdebeef468ae93294899f02760"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">max_engine_clk_ccompute</span></span></span><a class="headerlink" href="#_CPPv4N26sift_kfd_node_properties_t23max_engine_clk_ccomputeE" title="Link to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="structsift__device__t.html" class="btn btn-neutral float-left" title="Struct sift_device_t" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="structsift__kfd__node__t.html" class="btn btn-neutral float-right" title="Struct sift_kfd_node_t" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020 Advanced Micro Devices, Inc. All rights reserved.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

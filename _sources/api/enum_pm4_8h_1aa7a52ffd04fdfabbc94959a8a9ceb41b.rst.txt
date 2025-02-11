@@ -1,0 +1,14 @@
+.. _exhale_enum_pm4_8h_1aa7a52ffd04fdfabbc94959a8a9ceb41b:
+
+Enum sift_pm4_packet_type_t
+===========================
+
+- Defined in :ref:`file_include_rocsift_pm4.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: sift_pm4_packet_type_t
+   :project: rocsift

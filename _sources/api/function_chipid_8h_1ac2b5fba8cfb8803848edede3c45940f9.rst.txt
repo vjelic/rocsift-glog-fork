@@ -1,0 +1,14 @@
+.. _exhale_function_chipid_8h_1ac2b5fba8cfb8803848edede3c45940f9:
+
+Function is_navi10
+==================
+
+- Defined in :ref:`file_include_rocsift_chipid.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: is_navi10(sift_chipid_t)
+   :project: rocsift

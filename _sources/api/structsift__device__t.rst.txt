@@ -1,0 +1,17 @@
+.. _exhale_struct_structsift__device__t:
+
+Struct sift_device_t
+====================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: sift_device_t
+   :project: rocsift
+   :members:
+   :protected-members:
+   :undoc-members:

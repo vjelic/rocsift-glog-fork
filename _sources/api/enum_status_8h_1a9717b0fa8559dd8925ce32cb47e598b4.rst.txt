@@ -1,0 +1,14 @@
+.. _exhale_enum_status_8h_1a9717b0fa8559dd8925ce32cb47e598b4:
+
+Enum sift_status_t
+==================
+
+- Defined in :ref:`file_include_rocsift_status.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: sift_status_t
+   :project: rocsift

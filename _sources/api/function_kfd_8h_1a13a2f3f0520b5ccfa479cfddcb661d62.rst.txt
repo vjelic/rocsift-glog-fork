@@ -1,0 +1,14 @@
+.. _exhale_function_kfd_8h_1a13a2f3f0520b5ccfa479cfddcb661d62:
+
+Function sift_kfd_get_runlists
+==============================
+
+- Defined in :ref:`file_include_rocsift_kfd.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_kfd_get_runlists(sift_pm4_runlist_series_t **)
+   :project: rocsift

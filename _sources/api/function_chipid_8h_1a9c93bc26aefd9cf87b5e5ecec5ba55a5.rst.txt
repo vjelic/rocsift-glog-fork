@@ -1,0 +1,14 @@
+.. _exhale_function_chipid_8h_1a9c93bc26aefd9cf87b5e5ecec5ba55a5:
+
+Function is_mi100
+=================
+
+- Defined in :ref:`file_include_rocsift_chipid.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: is_mi100(sift_chipid_t)
+   :project: rocsift

@@ -1,0 +1,14 @@
+.. _exhale_function_pm4_8h_1a0e9f5d2aec91cc634ee9749e9949205e:
+
+Function sift_pm4_destroy_runlists
+==================================
+
+- Defined in :ref:`file_include_rocsift_pm4.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_pm4_destroy_runlists(sift_pm4_runlist_series_t *)
+   :project: rocsift

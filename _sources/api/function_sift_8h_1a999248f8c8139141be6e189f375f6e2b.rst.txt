@@ -1,0 +1,14 @@
+.. _exhale_function_sift_8h_1a999248f8c8139141be6e189f375f6e2b:
+
+Function sift_device_write
+==========================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_device_write(sift_device_t, const void *, sift_mem_region_t, uint64_t, size_t)
+   :project: rocsift

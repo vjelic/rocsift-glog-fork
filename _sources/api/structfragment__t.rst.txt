@@ -1,0 +1,17 @@
+.. _exhale_struct_structfragment__t:
+
+Struct fragment_t
+=================
+
+- Defined in :ref:`file_include_rocsift_xlator.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: fragment_t
+   :project: rocsift
+   :members:
+   :protected-members:
+   :undoc-members:

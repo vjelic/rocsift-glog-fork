@@ -1,0 +1,14 @@
+.. _exhale_function_chipid_8h_1a1fb7dd4669c7d77ecedb9bc1ea2fdd61:
+
+Function is_navi31
+==================
+
+- Defined in :ref:`file_include_rocsift_chipid.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: is_navi31(sift_chipid_t)
+   :project: rocsift

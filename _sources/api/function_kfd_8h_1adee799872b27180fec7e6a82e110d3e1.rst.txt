@@ -1,0 +1,14 @@
+.. _exhale_function_kfd_8h_1adee799872b27180fec7e6a82e110d3e1:
+
+Function sift_kfd_node_get_properties
+=====================================
+
+- Defined in :ref:`file_include_rocsift_kfd.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_kfd_node_get_properties(sift_kfd_node_t, sift_kfd_node_properties_t *)
+   :project: rocsift

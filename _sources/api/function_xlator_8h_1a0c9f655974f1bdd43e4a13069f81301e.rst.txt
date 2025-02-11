@@ -1,0 +1,14 @@
+.. _exhale_function_xlator_8h_1a0c9f655974f1bdd43e4a13069f81301e:
+
+Function sift_xlator_create_for_current_process
+===============================================
+
+- Defined in :ref:`file_include_rocsift_xlator.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_xlator_create_for_current_process(xlator_t *, sift_partition_t)
+   :project: rocsift

@@ -1,0 +1,14 @@
+.. _exhale_function_sift_8h_1a40e525cd18a62e6ba80c7032af85d009:
+
+Function sift_status_get_message
+================================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_status_get_message(sift_status_t)
+   :project: rocsift

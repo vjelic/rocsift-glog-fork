@@ -1,0 +1,14 @@
+.. _exhale_function_xlator_8h_1af2309fa3d279d51ee6a225572baf2307:
+
+Function sift_xlator_create
+===========================
+
+- Defined in :ref:`file_include_rocsift_xlator.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_xlator_create(xlator_t *, sift_partition_t, sift_kfd_node_t, int)
+   :project: rocsift

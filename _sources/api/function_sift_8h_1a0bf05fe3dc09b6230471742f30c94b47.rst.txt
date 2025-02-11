@@ -1,0 +1,14 @@
+.. _exhale_function_sift_8h_1a0bf05fe3dc09b6230471742f30c94b47:
+
+Function sift_device_write_reg32
+================================
+
+- Defined in :ref:`file_include_rocsift_sift.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sift_device_write_reg32(sift_device_t, uint32_t, sift_aperture_t, uint64_t)
+   :project: rocsift
